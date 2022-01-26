@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with logged in Facebook account</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>551a93f5-8dbd-4055-9d04-315c1dab2987</testCaseGuid>
+</TestCaseEntity>
