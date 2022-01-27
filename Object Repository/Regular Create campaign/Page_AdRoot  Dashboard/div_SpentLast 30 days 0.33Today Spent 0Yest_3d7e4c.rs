@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SpentLast 30 days 0.33Today Spent 0Yest_3d7e4c</name>
+   <tag></tag>
+   <elementGuidId>2065365c-5ee4-43d3-8b5f-af0d7a638bb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.total-info-card</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='social-dashboard']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>total-info-card</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SpentLast 30 days: $0.33Today Spent$ 0Yesterday Spent$ 0.33CampaignsActive: 0In review0Rejected0AdsActive: 0In review0Rejected0Active Platforms</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;social-dashboard&quot;)/div[@class=&quot;dashboard-content-row&quot;]/div[@class=&quot;total-info block&quot;]/div[@class=&quot;total-info-card&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='social-dashboard']/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[3]/following::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Connections'])[3]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SpentLast 30 days: $0.33Today Spent$ 0Yesterday Spent$ 0.33CampaignsActive: 0In review0Rejected0AdsActive: 0In review0Rejected0Active Platforms' or . = 'SpentLast 30 days: $0.33Today Spent$ 0Yesterday Spent$ 0.33CampaignsActive: 0In review0Rejected0AdsActive: 0In review0Rejected0Active Platforms')]</value>
+   </webElementXpaths>
+</WebElementEntity>
