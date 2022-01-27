@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Signup with Facebook</name>
+   <tag>SignUp</tag>
+   <comment></comment>
+   <testCaseGuid>f025acce-c5a2-4734-a210-24f2575feabf</testCaseGuid>
+</TestCaseEntity>
