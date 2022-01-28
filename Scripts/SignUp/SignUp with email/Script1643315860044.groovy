@@ -35,7 +35,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sig
 
 WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox'))
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/button_Sign up'))
+WebUI.click(findTestObject('SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'))
 
 String Ms = WebUI.verifyTextPresent('The E-mail address exists.', false)
 
@@ -47,9 +47,9 @@ if (Ms.equals('true')) {
     WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'), ('runayan' + RN) + 
         '@gmail.com')
 
-    WebUI.sendKeys(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/button_Sign up'), Keys.chord(Keys.ENTER))
+    WebUI.sendKeys(findTestObject('SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'), Keys.chord(Keys.ENTER))
 } else {
-    WebUi.comment('Registration completed successfully.')
+    WebUI.comment('Registration completed successfully.')
 }
 
 WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b'))

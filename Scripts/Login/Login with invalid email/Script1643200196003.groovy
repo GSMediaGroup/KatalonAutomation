@@ -23,9 +23,11 @@ WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
 
 WebUI.setText(findTestObject('Object Repository/Login/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_AdRoot  Login/input_Password_password'), '9juLMCYi8sYpY2Mrwe5diw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_AdRoot  Login/input_Password_password'), 'p6SfaQ7mi9I0hsJfWzeJOA==')
+
+WebUI.click(findTestObject('Object Repository/Login/Page_AdRoot  Login/button_Sign in'))
 
 WebUI.verifyTextPresent('Incorrect e-mail or password.', false)
 
-WebUI.click(findTestObject('Object Repository/Login/Page_AdRoot  Login/button_Sign in'))
+WebUI.closeBrowser()
 

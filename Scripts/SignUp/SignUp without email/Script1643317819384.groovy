@@ -23,21 +23,23 @@ WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
 
 WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now'))
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'), 'Ruzan')
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'), 'Runa')
 
 WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'), 'Test')
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'), 'runayany@gmail.com')
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input'), '77197878')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'), '9juLMCYi8sYpY2Mrwe5diw==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'), '9juLMCYi8sYpY2Mrwe5diw==')
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/button_Sign up'))
+WebUI.click(findTestObject('SignUp/Page_AdRoot  Sign up/Page_AdRoot  Sign up/div_Confirm password_checkbox'))
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/span_Please agree to the terms and conditio_b28976'))
+WebUI.click(findTestObject('SignUp/SignUp with email/Page_AdRoot  Sign up/div_Sign up'))
 
-WebUI.verifyTextPresent('Please agree to the terms and conditions to register.', false)
+WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/span_Invalid e-mail address'))
+
+WebUI.verifyTextPresent('Invalid e-mail address.', false)
 
 WebUI.closeBrowser()
 

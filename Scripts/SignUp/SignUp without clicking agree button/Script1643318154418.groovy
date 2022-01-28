@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
+
+WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now'))
+
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'), 'Ruzan')
+
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'), 'Test')
+
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'), 'runayany@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'), '9juLMCYi8sYpY2Mrwe5diw==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'), '9juLMCYi8sYpY2Mrwe5diw==')
+
+WebUI.click(findTestObject('SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'))
+
+WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/span_Please agree to the terms and conditio_b28976'))
+
+WebUI.verifyTextPresent('Please agree to the terms and conditions to register.', false)
+
+WebUI.closeBrowser()
+

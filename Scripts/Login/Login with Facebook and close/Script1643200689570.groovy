@@ -29,7 +29,9 @@ WebUI.setText(findTestObject('Object Repository/Login/Page_Facebook/input_Email 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Facebook/input_Password_pass'), '/cmVevPZqxso+uthIH5BoA==')
 
+WebUI.switchToWindowTitle('AdRoot ‒ Login')
+
 WebUI.verifyTextPresent('Login into your account', false)
 
-WebUI.switchToWindowTitle('AdRoot ‒ Login')
+WebUI.closeBrowser()
 

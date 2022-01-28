@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_AdRoot  Login/button_Sign in'))
+WebUI.click(findTestObject('Login wtih Facebook/Page_AdRoot  Login/div_Sign In_login-icon'))
 
 WebUI.switchToWindowTitle('Facebook')
 
@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Login/Page_Facebook/input_Email 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Facebook/input_Password_pass'), '/cmVevPZqxso+uthIH5BoA==')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Facebook/input_Password_login'))
+WebUI.sendKeys(findTestObject('Object Repository/Login wtih Facebook/Page_Facebook/input_Password_pass'), Keys.chord(Keys.ENTER))
 
 WebUI.switchToWindowTitle('AdRoot ‒ Dashboard')
 

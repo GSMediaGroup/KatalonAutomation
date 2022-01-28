@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Repository/Login/Page_AdRoot  Login/input_E
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_AdRoot  Login/input_Password_password'), '9juLMCYi8sYpY2Mrwe5diw==')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_AdRoot  Login/button_Sign in'))
+WebUI.click(findTestObject('Login/Page_AdRoot  Login/button_Sign in'))
 
 WebUI.click(findTestObject('Object Repository/Login/Page_AdRoot  Dashboard/a_Campaigns'))
 
