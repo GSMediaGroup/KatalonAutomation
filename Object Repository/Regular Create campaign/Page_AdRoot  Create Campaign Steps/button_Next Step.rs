@@ -6,12 +6,12 @@
    <elementGuidId>2a46d764-b2b2-4833-9271-f0e49ef91ce9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.custom-button.color-primary-blue.size-normal.next-step.active.custom-button-primary</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Next Step']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div[4]/button</value>
+         <key>CSS</key>
+         <value>button.custom-button.color-primary-blue.size-normal.next-step.active.custom-button-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

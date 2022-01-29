@@ -6,12 +6,12 @@
    <elementGuidId>9209d30a-df77-462a-99e0-3f4ef2d7fb6e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.repeat-warning</value>
+         <key>XPATH</key>
+         <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/span</value>
+         <key>CSS</key>
+         <value>span.repeat-warning</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app-container&quot;]/div[@class=&quot;app-body app-device-desktop&quot;]/div[@class=&quot;dashboard-layout dashboard-layout-advertiser theme-light dashboard-social-media&quot;]/div[@class=&quot;body-content&quot;]/div[@class=&quot;right-side&quot;]/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;campaign-data&quot;]/div[@class=&quot;create-campaign block&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;input-content&quot;]/span[@class=&quot;repeat-warning&quot;]</value>
+      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;campaign-data&quot;]/div[@class=&quot;create-campaign block&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;input-content&quot;]/span[@class=&quot;repeat-warning&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/span</value>
+      <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +99,12 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Name is taken' or . = 'Name is taken')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

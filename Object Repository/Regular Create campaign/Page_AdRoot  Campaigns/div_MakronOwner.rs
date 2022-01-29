@@ -6,12 +6,12 @@
    <elementGuidId>800c37e7-740b-4c42-b46c-13c7e7614a1a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div[3]/div/div/div/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.workspace-name.maybe-long-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div[3]/div/div/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

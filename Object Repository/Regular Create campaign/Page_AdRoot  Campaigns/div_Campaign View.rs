@@ -6,12 +6,12 @@
    <elementGuidId>3dd8fa8a-02de-4bcf-ae7a-acbf07688869</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='campaigns']/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.tab</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='campaigns']/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

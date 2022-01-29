@@ -6,12 +6,12 @@
    <elementGuidId>195458f0-fe82-4330-b0f0-1bb010e12f01</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='tip-4anvZFI3JMkhSdsh29Jv']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.cover-tolltip-target</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Artashes Mxchyan'])[1]/following::div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>de733773-249c-47df-8462-7f8ce4c4b222</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.input-content</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

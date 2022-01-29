@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Campaign name_custom-input</name>
+   <name>input_Name is taken_invalid custom-input</name>
    <tag></tag>
-   <elementGuidId>c4f612ff-530c-4fdb-ac9e-77269255cb17</elementGuidId>
+   <elementGuidId>276c1fb5-2870-4502-9584-5837fc316429</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div/input</value>
+         <key>CSS</key>
+         <value>input.invalid.custom-input</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input.custom-input</value>
+         <key>XPATH</key>
+         <value>//input[@value='homel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,21 +35,28 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>custom-input</value>
+      <value>invalid custom-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>homel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;campaign-data&quot;]/div[@class=&quot;create-campaign block&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;input-content&quot;]/input[@class=&quot;custom-input&quot;]</value>
+      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;campaign-data&quot;]/div[@class=&quot;create-campaign block&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;input-content&quot;]/input[@class=&quot;invalid custom-input&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='']</value>
+      <value>//input[@value='homel']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,12 +78,5 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

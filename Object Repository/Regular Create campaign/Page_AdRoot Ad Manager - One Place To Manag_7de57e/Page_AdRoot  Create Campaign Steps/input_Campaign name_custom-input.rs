@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Campaign name_custom-input</name>
    <tag></tag>
-   <elementGuidId>c4f612ff-530c-4fdb-ac9e-77269255cb17</elementGuidId>
+   <elementGuidId>496c6b8a-3c07-4d8b-b4c1-40133dc2febe</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div/input</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>input.custom-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -71,12 +71,5 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

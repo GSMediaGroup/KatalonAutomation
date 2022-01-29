@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1200, 1000)
-
 WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
+
+WebUI.setViewPortSize(1200, 1000)
 
 WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel01@gmail.com')
 
@@ -32,37 +32,33 @@ WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoo
 
 WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Dashboard/a_Campaigns'))
 
-WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View'))
-
 WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_MakronOwner'))
 
 WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)'))
 
-WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign'))
+WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View'))
 
-WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 'devadroot1')
+WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign'))
+
+WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 
+    'devadroot1')
 
 String Ms = WebUI.verifyTextPresent('Name is taken', false)
-
-if (Ms.equals('true')) {
-    int RN
-
-    RN = ((Math.random() * 500) as int)
-
-    WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 
-        'devadroot1' + RN)
-
-    WebUI.sendKeys(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/button_Next Step'), 
-        Keys.chord(Keys.ENTER))
-} else {
-    WebUI.comment('Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/button_Next Step')
-}
-
-WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan_cover-tolltip-target'))
-
-WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/div_GS PubSense_cover-tolltip-target'))
-
-WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Create Campaign Steps/button_Next Step'))
-
-WebUI.closeBrowser()
+ 
+ if (Ms.equals('true')) {
+	 int RN
+ 
+	 RN = ((Math.random() * 500) as int)
+ 
+	 WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'),
+		 'devadroot' + RN)
+ 
+	 WebUI.sendKeys(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/button_Next Step'), Keys.chord(Keys.ENTER))
+	 
+	 
+ } else {
+	 WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/button_Next Step'))
+ }
+ 
+ WebUI.closeBrowser()
 
