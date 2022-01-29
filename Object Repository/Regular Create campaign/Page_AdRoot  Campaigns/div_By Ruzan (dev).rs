@@ -6,12 +6,12 @@
    <elementGuidId>2ff08d50-c659-4f07-b57b-5518d9dc7eb2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div[3]/div/div[2]/div[6]/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div[3]/div/div[2]/div[6]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>workspace-cont </value>
+      <value>workspace-name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,10 +42,66 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app-container&quot;]/div[@class=&quot;app-body app-device-desktop&quot;]/div[@class=&quot;dashboard-layout dashboard-layout-advertiser theme-light dashboard-social-media&quot;]/div[@class=&quot;top-area&quot;]/div[@class=&quot;right-side&quot;]/div[@class=&quot;menu&quot;]/div[@class=&quot;top-menu&quot;]/div[@class=&quot;menu-item-group select-account-cont&quot;]/div[@class=&quot;workspace-select-cont&quot;]/div[@class=&quot;workspaces-cont&quot;]/div[@class=&quot;workspace-cont&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app-container&quot;]/div[@class=&quot;app-body app-device-desktop&quot;]/div[@class=&quot;dashboard-layout dashboard-layout-advertiser theme-light dashboard-social-media&quot;]/div[@class=&quot;top-area&quot;]/div[@class=&quot;right-side&quot;]/div[@class=&quot;menu&quot;]/div[@class=&quot;top-menu&quot;]/div[@class=&quot;menu-item-group select-account-cont&quot;]/div[@class=&quot;workspace-select-cont&quot;]/div[@class=&quot;workspaces-cont&quot;]/div[@class=&quot;workspace-cont&quot;]/div[@class=&quot;workspace-name&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div[3]/div/div[2]/div[6]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MakronViewer'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M'])[5]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No any notification'])[1]/preceding::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='By Ruzan (dev)']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'By Ruzan (dev)' or . = 'By Ruzan (dev)')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -78,12 +134,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'By Ruzan (dev)' or . = 'By Ruzan (dev)')]</value>
    </webElementXpaths>
 </WebElementEntity>

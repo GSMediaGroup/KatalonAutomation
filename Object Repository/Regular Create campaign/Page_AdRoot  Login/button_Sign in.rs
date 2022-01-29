@@ -6,12 +6,12 @@
    <elementGuidId>39b1ff71-a84a-4baf-8352-c402f85c7359</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.button</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.setViewPortSize(1200, 1000)
+
 WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
 
 WebUI.setText(findTestObject('Object Repository/Login/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel01@gmail.com')
@@ -27,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_AdRoot  Logi
 
 WebUI.click(findTestObject('Login/Page_AdRoot  Login/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_AdRoot  Dashboard/a_Campaigns'))
+WebUI.click(findTestObject('Login/Page_AdRoot  Dashboard/a_Campaigns'))
 
 WebUI.closeBrowser()
 

@@ -6,12 +6,12 @@
    <elementGuidId>9c439d7a-dc47-4dc9-b277-10674b4ba855</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#password</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>r</value>
+      <value>R</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

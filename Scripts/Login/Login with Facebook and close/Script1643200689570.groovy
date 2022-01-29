@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.setViewPortSize(1200, 1000)
+
 WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_AdRoot  Login/div_Sign In_login-icon'))

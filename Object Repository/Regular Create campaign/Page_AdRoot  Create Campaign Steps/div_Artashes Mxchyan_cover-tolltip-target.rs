@@ -6,12 +6,12 @@
    <elementGuidId>195458f0-fe82-4330-b0f0-1bb010e12f01</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.cover-tolltip-target</value>
+         <key>XPATH</key>
+         <value>//div[@id='tip-4anvZFI3JMkhSdsh29Jv']/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='tip-Cvw2gyl3g43QFbdE6CzH']/div</value>
+         <key>CSS</key>
+         <value>div.cover-tolltip-target</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tip-Cvw2gyl3g43QFbdE6CzH&quot;)/div[@class=&quot;cover-tolltip-target&quot;]</value>
+      <value>id(&quot;tip-4anvZFI3JMkhSdsh29Jv&quot;)/div[@class=&quot;cover-tolltip-target&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tip-Cvw2gyl3g43QFbdE6CzH']/div</value>
+      <value>//div[@id='tip-4anvZFI3JMkhSdsh29Jv']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tip-Cvw2gyl3g43QFbdE6CzH']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

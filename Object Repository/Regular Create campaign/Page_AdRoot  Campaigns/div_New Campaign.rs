@@ -6,12 +6,12 @@
    <elementGuidId>c1464fd8-4297-4df4-b733-d66f371ba106</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.add-new</value>
+         <key>XPATH</key>
+         <value>//section[@id='campaigns']/div[2]/div/div/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='campaigns']/div/div/div[2]</value>
+         <key>CSS</key>
+         <value>div.add-new</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;campaigns&quot;)/div[@class=&quot;campaign-list&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;add-new&quot;]</value>
+      <value>id(&quot;campaigns&quot;)/div[@class=&quot;campaign-container&quot;]/div[@class=&quot;campaign-list&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;add-new&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='campaigns']/div/div/div[2]</value>
+      <value>//section[@id='campaigns']/div[2]/div/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,14 +63,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[3]/following::div[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Period'])[2]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[2]/preceding::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//section/div/div/div[2]</value>
+      <value>//section/div[2]/div/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +99,33 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '+New Campaign' or . = '+New Campaign')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='campaigns']/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[3]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

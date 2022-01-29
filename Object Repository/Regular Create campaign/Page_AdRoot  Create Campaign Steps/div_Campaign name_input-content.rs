@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div</value>
+         <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app-container&quot;]/div[@class=&quot;app-body app-device-desktop&quot;]/div[@class=&quot;dashboard-layout dashboard-layout-advertiser theme-light dashboard-social-media&quot;]/div[@class=&quot;body-content&quot;]/div[@class=&quot;right-side&quot;]/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;campaign-data&quot;]/div[@class=&quot;create-campaign block&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;input-content&quot;]</value>
+      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;campaign-data&quot;]/div[@class=&quot;create-campaign block&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;input-content&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div</value>
+      <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +78,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
