@@ -25,3 +25,32 @@ WebUI.verifyElementPresent(findTestObject('Step2/Page_AdRoot  Create Campaign St
 
 WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/button_Next Step'))
 
+WebUI.click(findTestObject('Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'))
+
+WebUI.setText(findTestObject('Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'), 
+    'Social media')
+
+WebUI.setText(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'), 
+    'Social media ads management ')
+
+WebUI.setText(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'), 
+    'Our Mission is to create one place for all advertising needs')
+
+WebUI.setText(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'), 'gsmediagroup.net')
+
+WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD'))
+
+WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image'))
+
+WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Select'))
+
+WebUI.click(findTestObject('Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'))
+
+WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
+
+WebUI.setText(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'), 'GS media')
+
+WebUI.setText(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'), 'Ad management system')
+
+WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Save'))
+

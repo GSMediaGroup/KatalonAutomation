@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Next Step</name>
+   <name>button_Cancel</name>
    <tag></tag>
-   <elementGuidId>2a46d764-b2b2-4833-9271-f0e49ef91ce9</elementGuidId>
+   <elementGuidId>56e4a21a-95d5-4b70-b482-580cd5e0d530</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.custom-button.color-primary-blue.size-normal.next-step.active.custom-button-primary</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='scrollable']/div/div[2]/div/div[4]/button</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Keywords'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,69 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>custom-button color-primary-blue size-normal next-step active custom-button-primary</value>
+      <value>custom-button color-social-blue size-normal </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Next Step</value>
+      <value>Cancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;campaign-data&quot;]/div[@class=&quot;button-group&quot;]/button[@class=&quot;custom-button color-primary-blue size-normal next-step active custom-button-primary&quot;]</value>
+      <value>/html[1]/body[@class=&quot;light&quot;]/div[@class=&quot;template-mobile-root&quot;]/div[@class=&quot;mobile-template no-select&quot;]/div[@class=&quot;edit-social-ad&quot;]/div[@class=&quot;buttons-group&quot;]/button[@class=&quot;custom-button color-social-blue size-normal&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='scrollable']/div/div[2]/div/div[4]/button</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keywords'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unselect All'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prohibited'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Social Media'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Next Step']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Cancel']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//div[3]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Next Step' or . = 'Next Step')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div[4]/button</value>
+      <value>//button[(text() = 'Cancel' or . = 'Cancel')]</value>
    </webElementXpaths>
 </WebElementEntity>

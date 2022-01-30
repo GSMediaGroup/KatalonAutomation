@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Next Step</name>
    <tag></tag>
-   <elementGuidId>2a46d764-b2b2-4833-9271-f0e49ef91ce9</elementGuidId>
+   <elementGuidId>73814d8c-ab6f-4647-9eca-964b263688bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -70,6 +70,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>//*/text()[normalize-space(.)='Next Step']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -85,12 +99,5 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Next Step' or . = 'Next Step')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div[4]/button</value>
    </webElementXpaths>
 </WebElementEntity>

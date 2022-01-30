@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Next Step</name>
+   <name>div_Choose AD</name>
    <tag></tag>
-   <elementGuidId>2a46d764-b2b2-4833-9271-f0e49ef91ce9</elementGuidId>
+   <elementGuidId>6f12c4e7-f197-4090-a917-40b17680ad6f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.custom-button.color-primary-blue.size-normal.next-step.active.custom-button-primary</value>
+         <value>div.default-view</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='scrollable']/div/div[2]/div/div[4]/button</value>
+         <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>custom-button color-primary-blue size-normal next-step active custom-button-primary</value>
+      <value>default-view</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Next Step</value>
+      <value>Choose AD</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;campaign-data&quot;]/div[@class=&quot;button-group&quot;]/button[@class=&quot;custom-button color-primary-blue size-normal next-step active custom-button-primary&quot;]</value>
+      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;ad opened-autofill&quot;]/div[@class=&quot;ad-container-area&quot;]/div[@class=&quot;ad-step-content&quot;]/div[@class=&quot;autofill-form&quot;]/div[@class=&quot;fields&quot;]/div[@class=&quot;ad-photo&quot;]/div[@class=&quot;upload-ad&quot;]/div[@class=&quot;default-view&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='scrollable']/div/div[2]/div/div[4]/button</value>
+      <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unselect All'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Primary Text'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Social Media'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='autofill form'])[1]/following::div[22]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Next Step']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Website URL'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//div[2]/div/div[2]/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Next Step' or . = 'Next Step')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div[4]/button</value>
+      <value>//div[(text() = 'Choose AD' or . = 'Choose AD')]</value>
    </webElementXpaths>
 </WebElementEntity>
