@@ -31,5 +31,3 @@ WebUI.click(findTestObject('Login/Page_AdRoot  Login/button_Sign in'))
 
 WebUI.click(findTestObject('Login/Page_AdRoot  Dashboard/a_Campaigns'))
 
-WebUI.closeBrowser()
-

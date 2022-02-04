@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_To_arrow</name>
+   <tag></tag>
+   <elementGuidId>05fb77b0-32b7-4cd3-ba97-a15b6ac5e52f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div[3]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-touch&quot;]/body[@class=&quot;light&quot;]/div[5]/div[@class=&quot;popup popup-auto-size&quot;]/div[@class=&quot;popup-container create-audience&quot;]/div[@class=&quot;popup-body&quot;]/div[@class=&quot;popup-content-body&quot;]/div[@class=&quot;targeting-fields&quot;]/div[@class=&quot;target-item age-block max-height active&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;age-select&quot;]/div[@class=&quot;autofill-selects&quot;]/div[@class=&quot;selects-part&quot;]/div[@class=&quot;age-drop-down&quot;]/div[@class=&quot;default-view&quot;]/div[@class=&quot;arrow&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[3]/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>
