@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Campaigns</name>
    <tag></tag>
-   <elementGuidId>039b9ba0-3bce-42a9-a1f9-7a6b9fd57f6a</elementGuidId>
+   <elementGuidId>931cde04-71fe-432f-9736-bd49630383c5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

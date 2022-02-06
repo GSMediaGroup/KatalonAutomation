@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1550, 900)
 
-WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
+WebUI.navigateToUrl('https://app.adroot.io/auth/signin')
 
 WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel01@gmail.com')
 
@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoo
 
 WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_MakronOwner'))
 
-WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)'))
+WebUI.click(findTestObject('Object Repository/Regular Create campaign/App/Page_AdRoot  Dashboard/div_By Ruzan (app)'))
 
 WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Dashboard/a_Campaigns'))
 
@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_C
 
 WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign'))
 
-WebUI.setText(findTestObject('Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 'devadroot1')
+WebUI.setText(findTestObject('Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 'appadroot1')
 
 WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken'))
 
@@ -52,7 +52,7 @@ if (Ms.equals('true')) {
     RN = ((Math.random() * 5000) as int)
 
     WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 
-        'devadroot' + RN)
+        'appadroot' + RN)
 
     WebUI.sendKeys(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step'), 
         Keys.chord(Keys.ENTER))

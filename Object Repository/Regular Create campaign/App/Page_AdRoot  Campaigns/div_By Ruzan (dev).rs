@@ -3,7 +3,7 @@
    <description></description>
    <name>div_By Ruzan (dev)</name>
    <tag></tag>
-   <elementGuidId>2ff08d50-c659-4f07-b57b-5518d9dc7eb2</elementGuidId>
+   <elementGuidId>ccfa6b71-d126-40f7-8ba1-61f206763857</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
