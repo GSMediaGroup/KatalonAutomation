@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='cropped-512adroot.jpg'])[1]/following::div[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

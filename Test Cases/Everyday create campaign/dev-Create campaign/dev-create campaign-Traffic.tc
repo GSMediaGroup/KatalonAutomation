@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>dev-create campaign-Traffic</name>
-   <tag>create campaign</tag>
-   <comment></comment>
-   <testCaseGuid>4549f82a-48b9-4ddb-b025-f28c92b498a8</testCaseGuid>
-</TestCaseEntity>

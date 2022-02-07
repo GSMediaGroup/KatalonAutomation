@@ -3,19 +3,15 @@
    <description></description>
    <name>div_Open_actions-mode</name>
    <tag></tag>
-   <elementGuidId>86745336-025e-40ac-ae70-23cbd59c6197</elementGuidId>
+   <elementGuidId>a0b7b6a9-5262-4238-ad5d-14d7492c0beb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;ad opened-autofill&quot;]/div[@class=&quot;ad-container-area&quot;]/div[@class=&quot;ad-step-content&quot;]/div[@class=&quot;socials-form  mobile  scroll-invisible&quot;]/div[@class=&quot;socials-view-blocks&quot;]/div[@class=&quot;mobile-template no-select&quot;]/div[@class=&quot;actions-mode&quot;]</value>
+         <key>CSS</key>
+         <value>div.actions-mode</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div[3]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.actions-mode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

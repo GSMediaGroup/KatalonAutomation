@@ -42,9 +42,9 @@ WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_N
 
 WebUI.setText(findTestObject('Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 'appadroot1')
 
-WebUI.click(findTestObject('Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness'))
-
 WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken'))
+
+WebUI.click(findTestObject('Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness'))
 
 String Ms = WebUI.verifyTextPresent('Name is taken', false)
 
@@ -87,7 +87,8 @@ WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/div_cropped
 
 WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Select'))
 
-WebUI.mouseOver(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'))
 
@@ -110,5 +111,5 @@ WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campa
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING'), 0)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

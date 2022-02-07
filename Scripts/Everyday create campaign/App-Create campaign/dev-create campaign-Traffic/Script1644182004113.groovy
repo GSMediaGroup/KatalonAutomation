@@ -44,7 +44,8 @@ WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/div_cropped
 
 WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Select'))
 
-WebUI.mouseOver(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'))
 

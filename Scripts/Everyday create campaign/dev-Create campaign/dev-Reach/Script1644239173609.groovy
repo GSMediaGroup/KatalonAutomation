@@ -42,25 +42,11 @@ WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_N
 
 WebUI.setText(findTestObject('Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 'devadroot1')
 
-WebUI.click(findTestObject('Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach'))
-
 WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken'))
 
-String Ms = WebUI.verifyTextPresent('Name is taken', false)
+WebUI.click(findTestObject('Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach'))
 
-if (Ms.equals('true')) {
-    int RN
-
-    RN = ((Math.random() * 5000) as int)
-
-    WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 
-        'devadroot' + RN)
-
-    WebUI.sendKeys(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step'), 
-        Keys.chord(Keys.ENTER))
-} else {
-    WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step'))
-}
+WebUI.callTestCase(findTestCase('Everyday create campaign/dev-Create campaign/Name logic'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense'), 0)
 
@@ -87,9 +73,10 @@ WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/div_cropped
 
 WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Select'))
 
-WebUI.mouseOver(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'))
+WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'))
 
 WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
 
