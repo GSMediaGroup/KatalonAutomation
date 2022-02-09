@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>dev-Video</name>
-   <tag>Create campaign</tag>
-   <comment></comment>
-   <testCaseGuid>ad31dac6-234f-414c-8cd1-690f56f8a601</testCaseGuid>
-</TestCaseEntity>
