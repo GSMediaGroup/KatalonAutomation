@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit",
+      "brokenLocator": "//div[@id\u003d\u0027scrollable\u0027]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div[3]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "id(\"scrollable\")/div[@class\u003d\"create-social-media\"]/div[@class\u003d\"content\"]/div[@class\u003d\"ad opened-autofill\"]/div[@class\u003d\"ad-container-area\"]/div[@class\u003d\"ad-step-content\"]/div[@class\u003d\"socials-form  mobile  scroll-invisible\"]/div[@class\u003d\"socials-view-blocks\"]/div[@class\u003d\"mobile-template no-select\"]/div[@class\u003d\"actions-mode\"]/div[@class\u003d\"circle\"]/div[@class\u003d\"edit\"]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": ""
+    }
+  ]
+}

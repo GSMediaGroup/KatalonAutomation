@@ -6,12 +6,12 @@
    <elementGuidId>0df421c4-69d1-41ae-bb8c-3f5816494225</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous Step'])[1]/following::button[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.custom-button.color-primary-blue.size-normal.next-step.active.custom-button-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[3]/following::button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
