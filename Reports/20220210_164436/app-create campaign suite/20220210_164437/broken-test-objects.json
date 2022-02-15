@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)",
+      "brokenLocator": "//div[@id\u003d\u0027scrollable\u0027]/div/div[2]/div/div[2]/button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Previous Step\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220210_164436/app-create campaign suite/20220210_164437/Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)_neighbor.png"
+    }
+  ]
+}

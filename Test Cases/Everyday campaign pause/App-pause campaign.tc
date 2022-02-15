@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>App-pause campaign</name>
+   <tag>Pause</tag>
+   <comment></comment>
+   <testCaseGuid>1c8b658a-e504-4668-a9b5-e73a2ff5af1e</testCaseGuid>
+</TestCaseEntity>

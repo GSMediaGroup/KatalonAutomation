@@ -6,12 +6,12 @@
    <elementGuidId>bb4d915c-50ec-4005-b0b0-cdb4e70eb0f3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dynamic-table-body']/div/div/label/span/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.toggle-element.style-ios.color-social-blue.state > span.input-toggle > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamic-table-body']/div/div/label/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

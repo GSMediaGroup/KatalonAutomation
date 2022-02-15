@@ -4,11 +4,11 @@
    <name>Dev-pause campaign 1</name>
    <tag>Pause</tag>
    <comment></comment>
-   <testCaseGuid>c88c3262-2f9a-420d-8199-3dee90d923fd</testCaseGuid>
+   <testCaseGuid>8d37e1cf-db17-4c41-a443-6b03cae3b8d5</testCaseGuid>
    <variable>
       <defaultValue>0</defaultValue>
       <description>refresh count of page</description>
-      <id>6d25fc36-7e2d-4999-80d8-760a02ce2623</id>
+      <id>b91e465b-2914-4af3-8255-e73dd0da16e2</id>
       <masked>false</masked>
       <name>refreshcount</name>
    </variable>

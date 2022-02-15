@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027N/A\u0027])[3]/following::button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027scrollable\u0027]/div/div[2]/div/div[2]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220210_163831/app-create campaign suite/20220210_163831/Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027N/A\u0027])[3]/following::button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Previous Step\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220210_163831/app-create campaign suite/20220210_163831/Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)_neighbor.png"
+    }
+  ]
+}
