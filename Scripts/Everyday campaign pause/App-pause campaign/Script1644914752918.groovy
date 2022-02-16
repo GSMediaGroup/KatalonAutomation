@@ -31,7 +31,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot 
 
 WebUI.click(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Campaigns/img'))
 
-WebUI.click(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)'))
+WebUI.click(findTestObject('App-Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (app)'))
 
 WebUI.click(findTestObject('Pause dev campaign/Page_AdRoot  Dashboard/a_Campaigns'))
 
