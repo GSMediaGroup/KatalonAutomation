@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Pause campaign-both</name>
+   <name>Pause dev</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,15 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>5920635d-8764-43c1-8ccc-5c25524a4787</testSuiteGuid>
+   <testSuiteGuid>dd090300-4ae8-4f4d-baeb-65642d4eeb4f</testSuiteGuid>
    <testCaseLink>
-      <guid>169209fc-cb02-42ee-aeb8-c79606e4c48a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Everyday campaign pause/App-pause campaign</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cde00ee3-50a8-406f-b16e-b3d19fcb3577</guid>
+      <guid>6235300f-49e5-435a-9b58-b0c57435be9e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Everyday campaign pause/Dev-pause campaign 1</testCaseId>
