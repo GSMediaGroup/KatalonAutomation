@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;light&quot;]/div[5]/div[@class=&quot;popup popup-auto-size&quot;]/div[@class=&quot;popup-container create-audience&quot;]/div[@class=&quot;popup-body&quot;]/div[@class=&quot;popup-content-body&quot;]/div[@class=&quot;buttons-group&quot;]/button[@class=&quot;custom-button color-social-blue size-normal  custom-button-primary&quot;]</value>
+      <value>/html[@class=&quot;no-touch&quot;]/body[@class=&quot;light&quot;]/div[6]/div[@class=&quot;popup popup-auto-size&quot;]/div[@class=&quot;popup-container create-audience&quot;]/div[@class=&quot;popup-body&quot;]/div[@class=&quot;popup-content-body&quot;]/div[@class=&quot;buttons-group&quot;]/button[@class=&quot;custom-button color-social-blue size-normal  custom-button-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='menu-']/div</value>
+         <value>//div[6]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -43,6 +43,20 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu-']/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

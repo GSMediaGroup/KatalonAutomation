@@ -58,19 +58,13 @@ WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campa
 
 WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/label_Female'))
 
-WebUI.click(findTestObject('Audience create/Page_AdRoot  Campaigns/div'))
+WebUI.click(findTestObject('Audience create/Page_AdRoot  Campaigns/div_Armenia'))
 
-WebUI.click(findTestObject('Audience create/Page_AdRoot  Campaigns/label_Albania'))
+WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/label_Angola'))
 
-WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/body_DEVROI LABDashboardCampaignsMedia Libr_78fc9d_1'))
-
-WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/li_Dutch'))
-
-WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/div'))
+WebUI.scrollToElement(findTestObject('Audience create/Page_AdRoot  Campaigns/button_Save This Audience'), 0)
 
 WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/button_Save This Audience'))
-
-WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/div_Audience saved successfully'))
 
 WebUI.closeBrowser()
 

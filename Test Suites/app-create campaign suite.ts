@@ -15,24 +15,24 @@
       <guid>521b6636-4d26-47de-99f1-2ef8b975f374</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Everyday create campaign/App-Create campaign/App-Brand campaign</testCaseId>
+      <testCaseId>Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8facd34d-a614-4616-9cae-b01d5a804627</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Everyday create campaign/App-Create campaign/App-Reach campaign</testCaseId>
+      <testCaseId>Test Cases/Campaign/Create campaign/App-Create campaign/App-Reach campaign</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e48e2350-36d4-44e0-890e-a7a9ace8ba44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Everyday create campaign/App-Create campaign/App-Traffic campaign</testCaseId>
+      <testCaseId>Test Cases/Campaign/Create campaign/App-Create campaign/App-Traffic campaign</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eb145ec1-ca8e-48f9-826d-51b88e58398e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Everyday create campaign/App-Create campaign/App-Video views</testCaseId>
+      <testCaseId>Test Cases/Campaign/Create campaign/App-Create campaign/App-Video views</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
