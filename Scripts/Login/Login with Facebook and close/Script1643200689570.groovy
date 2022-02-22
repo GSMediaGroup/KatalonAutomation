@@ -29,7 +29,7 @@ WebUI.switchToWindowTitle('Facebook')
 
 WebUI.setText(findTestObject('Object Repository/Login/Page_Facebook/input_Email or phone_email'), 'makronmanuel01@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Facebook/input_Password_pass'), '/cmVevPZqxso+uthIH5BoA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Facebook/input_Password_pass'), '3Hxlzrj8FMHjaK0NqqRDzw==')
 
 WebUI.switchToWindowTitle('AdRoot ‒ Login')
 

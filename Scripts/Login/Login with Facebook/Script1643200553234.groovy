@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1200, 1000)
-	
+
 WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
 
 WebUI.click(findTestObject('Login wtih Facebook/Page_AdRoot  Login/div_Sign In_login-icon'))
@@ -29,7 +29,7 @@ WebUI.switchToWindowTitle('Facebook')
 
 WebUI.setText(findTestObject('Object Repository/Login/Page_Facebook/input_Email or phone_email'), 'makronmanuel01@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Facebook/input_Password_pass'), '/cmVevPZqxso+uthIH5BoA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Facebook/input_Password_pass'), 'sdVWhQOwjgjxxHejC0ycFw==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Login wtih Facebook/Page_Facebook/input_Password_pass'), Keys.chord(Keys.ENTER))
 

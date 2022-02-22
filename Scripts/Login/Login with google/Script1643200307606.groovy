@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Object Repository/Login/Page_Google/input_adroot.i
 
 WebUI.sendKeys(findTestObject('Object Repository/Login/Page_Google/input_adroot.io_identifier'), Keys.chord(Keys.ENTER))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Google/input__password'), '/cmVevPZqxso+uthIH5BoA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Google/input__password'), 'sdVWhQOwjgjxxHejC0ycFw==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Login/Page_Google/input__password'), Keys.chord(Keys.ENTER))
 
