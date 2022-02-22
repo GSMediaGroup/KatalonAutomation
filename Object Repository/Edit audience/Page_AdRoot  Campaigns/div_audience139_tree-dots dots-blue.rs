@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_audience139_tree-dots dots-blue</name>
+   <tag></tag>
+   <elementGuidId>95625c81-8d99-4e9e-8cda-3770dbb803a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='audience']/div/div[2]/div[2]/div/div/div[2]/div[5]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.tree-dots.dots-blue</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tree-dots dots-blue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;audience&quot;)/div[@class=&quot;content&quot;]/div[@class=&quot;audience-table&quot;]/div[@class=&quot;tbody&quot;]/div[@class=&quot;item&quot;]/div[@class=&quot;item-row&quot;]/div[@class=&quot;trow&quot;]/div[@class=&quot;td d-flex justify-content-center&quot;]/div[@class=&quot;actions-list&quot;]/div[@class=&quot;tree-dots dots-blue&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='audience']/div/div[2]/div[2]/div/div/div[2]/div[5]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

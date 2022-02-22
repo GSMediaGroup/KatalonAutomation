@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
 
+WebUI.setViewPortSize(1550, 900)
+
 WebUI.setText(findTestObject('Object Repository/Audience create/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel01@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Audience create/Page_AdRoot  Login/input_Password_password'), '9juLMCYi8sYpY2Mrwe5diw==')
@@ -60,11 +62,15 @@ WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campa
 
 WebUI.click(findTestObject('Audience create/Page_AdRoot  Campaigns/div_Armenia'))
 
-WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/label_Angola'))
+WebUI.click(findTestObject('Audience create/Page_AdRoot  Campaigns/label_U.S. Virgin Islands'))
+
+WebUI.click(findTestObject('Audience create/Page_AdRoot  Campaigns/div'))
 
 WebUI.scrollToElement(findTestObject('Audience create/Page_AdRoot  Campaigns/button_Save This Audience'), 0)
 
 WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Campaigns/button_Save This Audience'))
+
+WebUI.click(findTestObject('Object Repository/Audience create/Page_AdRoot  Dashboard/a_Audience  Interests'))
 
 WebUI.closeBrowser()
 

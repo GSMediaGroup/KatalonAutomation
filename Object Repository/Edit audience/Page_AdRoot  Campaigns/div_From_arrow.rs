@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_From_arrow</name>
+   <tag></tag>
+   <elementGuidId>637ee67a-dd34-487f-b9ef-b52e9f3458df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/div[2]/div/div/div/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.arrow</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;light&quot;]/div[5]/div[@class=&quot;popup popup-auto-size&quot;]/div[@class=&quot;popup-container edit-audience&quot;]/div[@class=&quot;popup-body&quot;]/div[@class=&quot;popup-content-body&quot;]/div[@class=&quot;targeting-fields&quot;]/div[@class=&quot;target-item age-block max-height active&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;age-select&quot;]/div[@class=&quot;autofill-selects&quot;]/div[@class=&quot;selects-part&quot;]/div[@class=&quot;age-drop-down&quot;]/div[@class=&quot;default-view&quot;]/div[@class=&quot;arrow&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div/div/div/div[2]/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>
