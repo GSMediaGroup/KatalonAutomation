@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dev-Delete campaign</name>
+   <tag>delete campaign</tag>
+   <comment></comment>
+   <testCaseGuid>a001deaf-21ab-4d73-8ec1-225482df8dd6</testCaseGuid>
+</TestCaseEntity>

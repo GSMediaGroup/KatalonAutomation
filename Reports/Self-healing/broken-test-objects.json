@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Delete campaign/Page_AdRoot  Campaigns/div_Delete",
+      "brokenLocator": "//section[@id\u003d\u0027campaigns\u0027]/div[2]/div[2]/div/div/div[2]/div[3]/div[2]/div[3]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Start date\u0027])[1]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Delete campaign/Page_AdRoot  Campaigns/div_Delete_neighbor.png"
+    }
+  ]
 }

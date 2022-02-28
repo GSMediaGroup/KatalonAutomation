@@ -37,13 +37,13 @@ WebUI.click(findTestObject('Object Repository/Delete campaign/Delete ad/Page_AdR
 
 WebUI.click(findTestObject('Object Repository/Delete campaign/Delete ad/Page_AdRoot  Campaigns/div_Campaign View'))
 
-WebUI.click(findTestObject('Object Repository/Delete campaign/Delete ad/Page_AdRoot  Campaigns/div_devadroot3474'))
-
 WebUI.click(findTestObject('Object Repository/Delete campaign/Delete ad/Page_AdRoot  Campaigns/div_IN REVIEW_tree-dots dots-blue'))
 
 WebUI.click(findTestObject('Object Repository/Delete campaign/Delete ad/Page_AdRoot  Campaigns/div_Delete'))
 
 WebUI.click(findTestObject('Object Repository/Delete campaign/Delete ad/Page_AdRoot  Campaigns/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/Delete campaign/Delete ad/Page_AdRoot  Dashboard/a_Campaigns'))
 
 WebUI.closeBrowser()
 

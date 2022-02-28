@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='']</value>
+         <value>//div[@id='scrollable']/div/div[2]/div/div/div/div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>

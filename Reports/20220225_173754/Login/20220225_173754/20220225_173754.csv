@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 98.0.4758.102,,,2022-02-25 17:38:01,2022-02-25 17:39:36,1m - 34.708s,PASSED
+,,,,,,,
+Test Cases/Login/Login with email,Chrome 98.0.4758.102,,Login,2022-02-25 17:38:02,2022-02-25 17:38:13,10.865s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-25 17:38:02,2022-02-25 17:38:05,2.593s,PASSED
+"setViewPortSize(1200, 1000)",Chrome 98.0.4758.102,,,2022-02-25 17:38:05,2022-02-25 17:38:05,0.206s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:05,2022-02-25 17:38:07,2.577s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:07,2022-02-25 17:38:09,1.084s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 98.0.4758.102,,,2022-02-25 17:38:09,2022-02-25 17:38:09,0.667s,PASSED
+"click(findTestObject(""Login/Page_AdRoot  Login/button_Sign in""))",Chrome 98.0.4758.102,,,2022-02-25 17:38:09,2022-02-25 17:38:10,0.614s,PASSED
+"click(findTestObject(""Login/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 98.0.4758.102,,,2022-02-25 17:38:10,2022-02-25 17:38:13,2.721s,PASSED
+,,,,,,,
+Test Cases/Login/Login with Facebook and close,Chrome 98.0.4758.102,,Login,2022-02-25 17:38:13,2022-02-25 17:38:23,10.713s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-25 17:38:13,2022-02-25 17:38:15,2.060s,PASSED
+"setViewPortSize(1200, 1000)",Chrome 98.0.4758.102,,,2022-02-25 17:38:15,2022-02-25 17:38:15,0.154s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:15,2022-02-25 17:38:18,2.926s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_AdRoot  Login/div_Sign In_login-icon""))",Chrome 98.0.4758.102,,,2022-02-25 17:38:18,2022-02-25 17:38:19,0.752s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:19,2022-02-25 17:38:21,1.545s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Facebook/input_Email or phone_email""), ""makronmanuel01@gmail.com"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:21,2022-02-25 17:38:22,0.911s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Facebook/input_Password_pass""), ""3Hxlzrj8FMHjaK0NqqRDzw=="")",Chrome 98.0.4758.102,,,2022-02-25 17:38:22,2022-02-25 17:38:22,0.530s,PASSED
+"switchToWindowTitle(""AdRoot ‒ Login"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:22,2022-02-25 17:38:22,0.050s,PASSED
+"verifyTextPresent(""Login into your account"", false)",Chrome 98.0.4758.102,,,2022-02-25 17:38:22,2022-02-25 17:38:23,0.413s,PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-25 17:38:23,2022-02-25 17:38:23,0.710s,PASSED
+,,,,,,,
+Test Cases/Login/Login with Facebook,Chrome 98.0.4758.102,,Login,2022-02-25 17:38:23,2022-02-25 17:38:41,17.431s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-25 17:38:24,2022-02-25 17:38:25,1.599s,PASSED
+"setViewPortSize(1200, 1000)",Chrome 98.0.4758.102,,,2022-02-25 17:38:25,2022-02-25 17:38:25,0.152s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:25,2022-02-25 17:38:28,2.605s,PASSED
+"click(findTestObject(""Login wtih Facebook/Page_AdRoot  Login/div_Sign In_login-icon""))",Chrome 98.0.4758.102,,,2022-02-25 17:38:28,2022-02-25 17:38:29,1.169s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:29,2022-02-25 17:38:31,1.396s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Facebook/input_Email or phone_email""), ""makronmanuel01@gmail.com"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:31,2022-02-25 17:38:32,0.927s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Facebook/input_Password_pass""), ""sdVWhQOwjgjxxHejC0ycFw=="")",Chrome 98.0.4758.102,,,2022-02-25 17:38:32,2022-02-25 17:38:32,0.534s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login wtih Facebook/Page_Facebook/input_Password_pass""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-25 17:38:32,2022-02-25 17:38:32,0.425s,PASSED
+"switchToWindowTitle(""AdRoot ‒ Dashboard"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:32,2022-02-25 17:38:38,5.114s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 98.0.4758.102,,,2022-02-25 17:38:38,2022-02-25 17:38:40,2.354s,PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-25 17:38:40,2022-02-25 17:38:41,0.753s,PASSED
+,,,,,,,
+Test Cases/Login/Login with Google and close,Chrome 98.0.4758.102,,Login,2022-02-25 17:38:41,2022-02-25 17:38:53,11.843s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-25 17:38:41,2022-02-25 17:38:43,1.426s,PASSED
+"setViewPortSize(1200, 1000)",Chrome 98.0.4758.102,,,2022-02-25 17:38:43,2022-02-25 17:38:43,0.154s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:43,2022-02-25 17:38:46,2.747s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_AdRoot  Login/span_Sign In""))",Chrome 98.0.4758.102,,,2022-02-25 17:38:46,2022-02-25 17:38:46,0.776s,PASSED
+"switchToWindowTitle(""Մտնել Google հաշիվներ"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:46,2022-02-25 17:38:48,1.194s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Google/input_adroot.io_identifier""), ""ruzan.a@adroot.io"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:48,2022-02-25 17:38:49,1.230s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login/Page_Google/input_adroot.io_identifier""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-25 17:38:49,2022-02-25 17:38:49,0.516s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Google/input__password""), ""sdVWhQOwjgjxxHejC0ycFw=="")",Chrome 98.0.4758.102,,,2022-02-25 17:38:49,2022-02-25 17:38:51,2.089s,PASSED
+"switchToWindowTitle(""AdRoot ‒ Login"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:51,2022-02-25 17:38:51,0.070s,PASSED
+"verifyTextPresent(""Login into your account"", false)",Chrome 98.0.4758.102,,,2022-02-25 17:38:51,2022-02-25 17:38:52,0.310s,PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-25 17:38:52,2022-02-25 17:38:53,0.820s,PASSED
+,,,,,,,
+Test Cases/Login/Login with google,Chrome 98.0.4758.102,,Login,2022-02-25 17:38:53,2022-02-25 17:39:19,26.395s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-25 17:38:53,2022-02-25 17:38:55,1.423s,PASSED
+"setViewPortSize(1200, 1000)",Chrome 98.0.4758.102,,,2022-02-25 17:38:55,2022-02-25 17:38:55,0.130s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:55,2022-02-25 17:38:58,2.866s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_AdRoot  Login/span_Sign In""))",Chrome 98.0.4758.102,,,2022-02-25 17:38:58,2022-02-25 17:38:58,0.705s,PASSED
+"switchToWindowTitle(""Մտնել Google հաշիվներ"")",Chrome 98.0.4758.102,,,2022-02-25 17:38:58,2022-02-25 17:39:00,1.397s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Google/input_adroot.io_identifier""), ""ruzan.a@adroot.io"")",Chrome 98.0.4758.102,,,2022-02-25 17:39:00,2022-02-25 17:39:01,1.400s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login/Page_Google/input_adroot.io_identifier""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-25 17:39:01,2022-02-25 17:39:02,0.674s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Google/input__password""), ""sdVWhQOwjgjxxHejC0ycFw=="")",Chrome 98.0.4758.102,,,2022-02-25 17:39:02,2022-02-25 17:39:04,1.839s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login/Page_Google/input__password""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-25 17:39:04,2022-02-25 17:39:04,0.501s,PASSED
+"switchToWindowTitle(""AdRoot ‒ Dashboard"")",Chrome 98.0.4758.102,,,2022-02-25 17:39:04,2022-02-25 17:39:16,12.184s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 98.0.4758.102,,,2022-02-25 17:39:16,2022-02-25 17:39:18,1.934s,PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-25 17:39:18,2022-02-25 17:39:19,0.806s,PASSED
+,,,,,,,
+Test Cases/Login/Login with invalid email,Chrome 98.0.4758.102,,Login,2022-02-25 17:39:19,2022-02-25 17:39:27,8.376s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-25 17:39:20,2022-02-25 17:39:21,1.371s,PASSED
+"setViewPortSize(1200, 1000)",Chrome 98.0.4758.102,,,2022-02-25 17:39:21,2022-02-25 17:39:21,0.139s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-02-25 17:39:21,2022-02-25 17:39:24,2.579s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel@gmail.com"")",Chrome 98.0.4758.102,,,2022-02-25 17:39:24,2022-02-25 17:39:25,1.042s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_AdRoot  Login/input_Password_password""), ""p6SfaQ7mi9I0hsJfWzeJOA=="")",Chrome 98.0.4758.102,,,2022-02-25 17:39:25,2022-02-25 17:39:25,0.657s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_AdRoot  Login/button_Sign in""))",Chrome 98.0.4758.102,,,2022-02-25 17:39:25,2022-02-25 17:39:26,0.522s,PASSED
+"verifyTextPresent(""Incorrect e-mail or password."", false)",Chrome 98.0.4758.102,,,2022-02-25 17:39:26,2022-02-25 17:39:27,0.633s,PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-25 17:39:27,2022-02-25 17:39:27,0.713s,PASSED
+,,,,,,,
+Test Cases/Login/Login with wrong password,Chrome 98.0.4758.102,,Login,2022-02-25 17:39:27,2022-02-25 17:39:36,8.709s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-25 17:39:28,2022-02-25 17:39:29,1.299s,PASSED
+"setViewPortSize(1200, 1000)",Chrome 98.0.4758.102,,,2022-02-25 17:39:29,2022-02-25 17:39:29,0.125s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-02-25 17:39:29,2022-02-25 17:39:32,2.793s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 98.0.4758.102,,,2022-02-25 17:39:32,2022-02-25 17:39:33,1.310s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_AdRoot  Login/input_Password_password""), ""p6SfaQ7mi9I0hsJfWzeJOA=="")",Chrome 98.0.4758.102,,,2022-02-25 17:39:33,2022-02-25 17:39:34,0.589s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_AdRoot  Login/button_Sign in""))",Chrome 98.0.4758.102,,,2022-02-25 17:39:34,2022-02-25 17:39:34,0.550s,PASSED
+"verifyTextPresent(""Incorrect e-mail or password."", false)",Chrome 98.0.4758.102,,,2022-02-25 17:39:34,2022-02-25 17:39:35,0.772s,PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-25 17:39:35,2022-02-25 17:39:36,0.800s,PASSED
