@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>App-Brand campaign</name>
+   <tag>create campaign</tag>
+   <comment></comment>
+   <testCaseGuid>b20ad071-1690-4db2-ac7c-e5500576217a</testCaseGuid>
+</TestCaseEntity>

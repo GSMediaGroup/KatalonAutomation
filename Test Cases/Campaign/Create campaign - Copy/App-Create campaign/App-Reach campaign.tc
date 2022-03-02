@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>App-Reach campaign</name>
+   <tag>create campaign</tag>
+   <comment></comment>
+   <testCaseGuid>dc58e9a4-b3eb-4324-9c66-6275971602ae</testCaseGuid>
+</TestCaseEntity>
