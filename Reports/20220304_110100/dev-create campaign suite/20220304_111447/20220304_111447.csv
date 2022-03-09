@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dev-create campaign suite,Chrome 98.0.4758.102,,,2022-03-04 11:14:57,2022-03-04 11:16:09,1m - 11.385s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign,Chrome 98.0.4758.102,,create campaign,2022-03-04 11:14:57,2022-03-04 11:15:03,5.115s,FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-04 11:14:58,2022-03-04 11:15:00,2.559s,PASSED
+"setViewPortSize(1550, 900)",Chrome 98.0.4758.102,,,2022-03-04 11:15:00,2022-03-04 11:15:01,0.140s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-03-04 11:15:01,2022-03-04 11:15:02,1.569s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 98.0.4758.102,,,2022-03-04 11:15:02,2022-03-04 11:15:03,0.330s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Reach campaign,Chrome 98.0.4758.102,,Create campaign,2022-03-04 11:15:03,2022-03-04 11:15:06,3.959s,FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-04 11:15:03,2022-03-04 11:15:05,2.044s,PASSED
+"setViewPortSize(1550, 900)",Chrome 98.0.4758.102,,,2022-03-04 11:15:05,2022-03-04 11:15:05,0.161s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-03-04 11:15:05,2022-03-04 11:15:06,1.148s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 98.0.4758.102,,,2022-03-04 11:15:06,2022-03-04 11:15:06,0.157s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Traffic campaign,Chrome 98.0.4758.102,,Create campaign,2022-03-04 11:15:06,2022-03-04 11:15:26,19.098s,FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-04 11:15:07,2022-03-04 11:15:11,3.857s,PASSED
+"setViewPortSize(1550, 900)",Chrome 98.0.4758.102,,,2022-03-04 11:15:11,2022-03-04 11:15:11,0.130s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-03-04 11:15:11,2022-03-04 11:15:13,2.167s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 98.0.4758.102,,,2022-03-04 11:15:13,2022-03-04 11:15:14,1.049s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 98.0.4758.102,,,2022-03-04 11:15:14,2022-03-04 11:15:15,0.539s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 98.0.4758.102,,,2022-03-04 11:15:15,2022-03-04 11:15:15,0.565s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_MakronOwner""))",Chrome 98.0.4758.102,,,2022-03-04 11:15:15,2022-03-04 11:15:26,10.400s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Video views campaign,Chrome 98.0.4758.102,,create campaign,2022-03-04 11:15:26,2022-03-04 11:16:09,42.902s,FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-04 11:15:26,2022-03-04 11:15:30,3.880s,PASSED
+"setViewPortSize(1550, 900)",Chrome 98.0.4758.102,,,2022-03-04 11:15:30,2022-03-04 11:15:30,0.126s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 98.0.4758.102,,,2022-03-04 11:15:30,2022-03-04 11:15:32,2.358s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 98.0.4758.102,,,2022-03-04 11:15:32,2022-03-04 11:15:33,1.045s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 98.0.4758.102,,,2022-03-04 11:15:33,2022-03-04 11:15:34,0.579s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 98.0.4758.102,,,2022-03-04 11:15:34,2022-03-04 11:15:35,0.520s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_MakronOwner""))",Chrome 98.0.4758.102,,,2022-03-04 11:15:35,2022-03-04 11:16:09,33.932s,FAILED

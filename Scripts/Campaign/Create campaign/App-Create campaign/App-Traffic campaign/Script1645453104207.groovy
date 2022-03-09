@@ -30,11 +30,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Regular Create campaign
 
 WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_MakronOwner'))
+WebUI.click(findTestObject('Page_AdRoot  Campaigns/img'))
 
-WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (app)'))
+WebUI.click(findTestObject('Page_AdRoot  Campaigns/div_By Ruzan (app)'))
 
-WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Dashboard/a_Campaigns'))
+WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
 WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View'))
 

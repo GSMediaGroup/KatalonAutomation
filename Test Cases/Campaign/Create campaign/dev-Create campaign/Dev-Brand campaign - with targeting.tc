@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dev-Brand campaign - with targeting</name>
+   <tag>create campaign</tag>
+   <comment></comment>
+   <testCaseGuid>d53124f8-3230-40bc-a817-d9b0ab796648</testCaseGuid>
+</TestCaseEntity>
