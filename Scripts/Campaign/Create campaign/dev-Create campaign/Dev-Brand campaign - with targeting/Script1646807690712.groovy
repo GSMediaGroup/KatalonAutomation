@@ -105,11 +105,21 @@ WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_Eng
 
 WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/li_All'))
 
-WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_ADAGALAMAOARASAT'))
+WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda'))
 
-WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_All'))
+WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda'))
 
 WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/label_All'))
+
+WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow'))
+
+WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow'))
+
+WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_23'))
+
+WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow'))
+
+WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_64'))
 
 WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
 

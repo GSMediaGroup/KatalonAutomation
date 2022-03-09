@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_All</name>
+   <name>div_From_arrow</name>
    <tag></tag>
-   <elementGuidId>9b2270c8-d3f8-4946-b513-adc49aaf8a67</elementGuidId>
+   <elementGuidId>5a1e45b5-c165-4ee7-acf5-0496398e9a1f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='menu-']/div[3]/ul/li[3]/label</value>
+         <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>label.MuiFormControlLabel-root</value>
+         <value>div.arrow</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiFormControlLabel-root</value>
+      <value>arrow</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>All</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu-&quot;)/div[@class=&quot;MuiPaper-root MuiMenu-paper MuiPopover-paper MuiPaper-elevation8 MuiPaper-rounded&quot;]/ul[@class=&quot;MuiList-root MuiMenu-list MuiList-padding&quot;]/li[@class=&quot;MuiButtonBase-root MuiListItem-root MuiMenuItem-root dropdown-child-element Mui-selected MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button Mui-selected&quot;]/label[@class=&quot;MuiFormControlLabel-root&quot;]</value>
+      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;audience-placement&quot;]/div[@class=&quot;audience block&quot;]/div[@class=&quot;targeting-fields two-column-mode&quot;]/div[@class=&quot;left-targeting-column&quot;]/div[@class=&quot;target-item age-block max-height active&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;age-select&quot;]/div[@class=&quot;autofill-selects&quot;]/div[@class=&quot;selects-part&quot;]/div[@class=&quot;age-drop-down&quot;]/div[@class=&quot;default-view&quot;]/div[@class=&quot;arrow&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='menu-']/div[3]/ul/li[3]/label</value>
+      <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Search for Language'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset all'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arabic'])[3]/preceding::label[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/preceding::div[41]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/label</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//label[(text() = 'All' or . = 'All')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[2]/following::label[1]</value>
+      <value>//div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>
