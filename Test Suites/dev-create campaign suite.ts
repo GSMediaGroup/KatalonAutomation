@@ -35,4 +35,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Video views campaign</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b410b763-bede-4f36-aa0d-3a25d808e4b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign - with targeting</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
