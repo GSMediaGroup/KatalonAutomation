@@ -19,11 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1200, 1000)
+WebUI.setViewPortSize(1700, 900)
 
-WebUI.navigateToUrl('https://dev.adroot.io/auth/signin')
+WebUI.navigateToUrl('http://adroot.io/')
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/button_AGREE'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/a_Pricing'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_Pricing - AdRoot Ad Manager/a_Sign Up'))
 
 WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'), 'Ruzan')
 
@@ -54,7 +58,29 @@ if (Ms.equals('true')) {
     WebUI.comment('Registration completed successfully.')
 }
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b'))
+WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'), 
+    '9juLMCYi8sYpY2Mrwe5diw==')
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account'), 
+    0)
 
 WebUI.closeBrowser()
 

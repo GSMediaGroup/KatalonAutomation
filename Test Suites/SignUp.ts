@@ -15,7 +15,7 @@
       <guid>632c4251-bae3-445d-9dee-826e3a0ad6a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/SignUp with email</testCaseId>
+      <testCaseId>Test Cases/SignUp/Sign-up with email/SignUp with email and skip</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1267d006-363b-43f8-ba5c-b042b849c96c</guid>

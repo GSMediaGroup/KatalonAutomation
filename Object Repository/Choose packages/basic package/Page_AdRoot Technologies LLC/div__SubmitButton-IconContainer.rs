@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__SubmitButton-IconContainer</name>
+   <tag></tag>
+   <elementGuidId>f81387b9-2b28-4ee8-b389-e4be75fb0dfe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/form/div[2]/div[2]/button/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.SubmitButton-IconContainer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>SubmitButton-IconContainer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App-Container is-noBackground flex-container justify-content-center&quot;]/div[@class=&quot;App App--singleItem&quot;]/div[@class=&quot;App-Payment&quot;]/div[@class=&quot;CheckoutPaymentForm&quot;]/div[@class=&quot;PaymentFormFixedHeightContainer flex-container direction-column&quot;]/form[1]/div[@class=&quot;PaymentForm-confirmPaymentContainer flex-item width-grow&quot;]/div[@class=&quot;flex-item width-12&quot;]/button[@class=&quot;SubmitButton SubmitButton--complete&quot;]/div[@class=&quot;SubmitButton-IconContainer&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/form/div[2]/div[2]/button/div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Начать пробное пользование'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Дополнительная информация'])[1]/following::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='На платформе'])[1]/preceding::div[14]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div[3]</value>
+   </webElementXpaths>
+</WebElementEntity>
