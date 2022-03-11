@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SignUp without clicking agree button</name>
-   <tag>SignUp</tag>
-   <comment></comment>
-   <testCaseGuid>738a0634-b41a-432c-a988-2e76f4ef1eee</testCaseGuid>
-</TestCaseEntity>

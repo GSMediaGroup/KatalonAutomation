@@ -1,0 +1,145 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SignUp with packages,Chrome 99.0.4844.51,,,2022-03-11 11:03:59,2022-03-11 11:07:47,3m - 48.411s,FAILED
+,,,,,,,
+Test Cases/SignUp/Sign-up with email/Sig-up email-free-from landing,Chrome 99.0.4844.51,,signup,2022-03-11 11:03:59,2022-03-11 11:04:50,50.260s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-11 11:04:00,2022-03-11 11:04:03,3.575s,PASSED
+"setViewPortSize(1700, 900)",Chrome 99.0.4844.51,,,2022-03-11 11:04:03,2022-03-11 11:04:03,0.156s,PASSED
+"navigateToUrl(""http://adroot.io/"")",Chrome 99.0.4844.51,,,2022-03-11 11:04:03,2022-03-11 11:04:09,5.481s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/button_AGREE""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:09,2022-03-11 11:04:13,3.964s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/a_Pricing""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:13,2022-03-11 11:04:14,1.548s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_Pricing - AdRoot Ad Manager/a_Sign Up""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:14,2022-03-11 11:04:19,4.191s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name""), ""Ruzan"")",Chrome 99.0.4844.51,,,2022-03-11 11:04:19,2022-03-11 11:04:20,1.009s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name""), ""Test"")",Chrome 99.0.4844.51,,,2022-03-11 11:04:20,2022-03-11 11:04:20,0.753s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email""), ""runayan@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-11 11:04:20,2022-03-11 11:04:21,0.776s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:04:21,2022-03-11 11:04:22,0.634s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:04:22,2022-03-11 11:04:23,0.795s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:23,2022-03-11 11:04:23,0.580s,PASSED
+"click(findTestObject(""SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:23,2022-03-11 11:04:24,0.436s,PASSED
+"Ms = verifyTextPresent(""The E-mail address exists."", false)",Chrome 99.0.4844.51,,,2022-03-11 11:04:24,2022-03-11 11:04:24,0.321s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:24,2022-03-11 11:04:25,1.293s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:25,2022-03-11 11:04:28,2.855s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:28,2022-03-11 11:04:30,2.046s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:30,2022-03-11 11:04:33,2.937s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:33,2022-03-11 11:04:35,1.996s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:35,2022-03-11 11:04:37,2.021s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:37,2022-03-11 11:04:39,2.050s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:39,2022-03-11 11:04:41,1.960s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:41,2022-03-11 11:04:43,2.029s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:04:43,2022-03-11 11:04:45,2.054s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:04:45,2022-03-11 11:04:47,1.927s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account""), 0)",Chrome 99.0.4844.51,,,2022-03-11 11:04:47,2022-03-11 11:04:49,1.878s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-11 11:04:49,2022-03-11 11:04:50,0.624s,PASSED
+,,,,,,,
+Test Cases/SignUp/Sign-up with email/SignUp with email and basic,Chrome 99.0.4844.51,,SignUp,2022-03-11 11:04:50,2022-03-11 11:05:48,58.678s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-11 11:04:50,2022-03-11 11:04:51,1.200s,PASSED
+"setViewPortSize(1600, 900)",Chrome 99.0.4844.51,,,2022-03-11 11:04:51,2022-03-11 11:04:51,0.135s,PASSED
+"navigateToUrl(""https://app.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-11 11:04:51,2022-03-11 11:05:01,9.277s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:01,2022-03-11 11:05:01,0.654s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name""), ""Ruzan"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:01,2022-03-11 11:05:03,1.202s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name""), ""Test"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:03,2022-03-11 11:05:03,0.679s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email""), ""runayan@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:03,2022-03-11 11:05:04,0.755s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:05:04,2022-03-11 11:05:05,0.558s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:05:05,2022-03-11 11:05:05,0.753s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:05,2022-03-11 11:05:06,0.513s,PASSED
+"click(findTestObject(""SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:06,2022-03-11 11:05:06,0.388s,PASSED
+"Ms = verifyTextPresent(""The E-mail address exists."", false)",Chrome 99.0.4844.51,,,2022-03-11 11:05:06,2022-03-11 11:05:07,0.329s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:07,2022-03-11 11:05:08,1.260s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Sign up/button_Sign up_1""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:08,2022-03-11 11:05:08,0.504s,PASSED
+"waitForElementPresent(findTestObject(""Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber""), 0)",Chrome 99.0.4844.51,,,2022-03-11 11:05:08,2022-03-11 11:05:24,15.194s,PASSED
+"setText(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber""), ""5406 6100 0080 8837"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:24,2022-03-11 11:05:24,0.869s,PASSED
+"setText(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardExpiry""), ""12 / 23"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:24,2022-03-11 11:05:26,1.116s,PASSED
+"setText(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardCvc""), ""403"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:26,2022-03-11 11:05:26,0.749s,PASSED
+"setText(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__billingName""), ""Harutyun Aghayan"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:26,2022-03-11 11:05:27,0.889s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/div__SubmitButton-IconContainer""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:27,2022-03-11 11:05:28,0.382s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:28,2022-03-11 11:05:36,8.521s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_My Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:36,2022-03-11 11:05:37,0.457s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_Payment""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:37,2022-03-11 11:05:38,1.258s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_8837""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:38,2022-03-11 11:05:40,1.882s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_View More_window-top-close""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:40,2022-03-11 11:05:40,0.421s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:40,2022-03-11 11:05:41,0.438s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:41,2022-03-11 11:05:42,1.068s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:42,2022-03-11 11:05:42,0.717s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:42,2022-03-11 11:05:43,0.636s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:43,2022-03-11 11:05:43,0.418s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:43,2022-03-11 11:05:44,0.937s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:44,2022-03-11 11:05:45,0.653s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:45,2022-03-11 11:05:46,0.529s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:05:46,2022-03-11 11:05:46,0.388s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:46,2022-03-11 11:05:46,0.541s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account""), 0)",Chrome 99.0.4844.51,,,2022-03-11 11:05:46,2022-03-11 11:05:48,1.161s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-11 11:05:48,2022-03-11 11:05:48,0.683s,PASSED
+,,,,,,,
+Test Cases/SignUp/Sign-up with email/SignUp with email and business,Chrome 99.0.4844.51,,SignUp,2022-03-11 11:05:48,2022-03-11 11:07:03,1m - 14.873s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-11 11:05:49,2022-03-11 11:05:50,1.241s,PASSED
+"setViewPortSize(1600, 900)",Chrome 99.0.4844.51,,,2022-03-11 11:05:50,2022-03-11 11:05:50,0.130s,PASSED
+"navigateToUrl(""https://app.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:50,2022-03-11 11:05:52,2.192s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:52,2022-03-11 11:05:53,0.687s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name""), ""Ruzan"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:53,2022-03-11 11:05:54,1.358s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name""), ""Test"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:54,2022-03-11 11:05:55,0.722s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email""), ""runayan@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-11 11:05:55,2022-03-11 11:05:56,0.739s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:05:56,2022-03-11 11:05:56,0.540s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:05:56,2022-03-11 11:05:57,0.779s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:57,2022-03-11 11:05:58,0.606s,PASSED
+"click(findTestObject(""SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:58,2022-03-11 11:05:58,0.364s,PASSED
+"Ms = verifyTextPresent(""The E-mail address exists."", false)",Chrome 99.0.4844.51,,,2022-03-11 11:05:58,2022-03-11 11:05:58,0.320s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-11 11:05:58,2022-03-11 11:06:00,1.266s,PASSED
+"click(findTestObject(""Choose packages/business package/Page_AdRoot  Sign up/button_Sign up_1""))",Chrome 99.0.4844.51,,,2022-03-11 11:06:00,2022-03-11 11:06:00,0.748s,PASSED
+"waitForElementPresent(findTestObject(""Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber""), 0)",Chrome 99.0.4844.51,,,2022-03-11 11:06:00,2022-03-11 11:06:32,31.235s,PASSED
+"setText(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber""), ""5406 6100 0080 8837"")",Chrome 99.0.4844.51,,,2022-03-11 11:06:32,2022-03-11 11:07:03,31.608s,FAILED
+,,,,,,,
+Test Cases/SignUp/Sign-up with email/SignUp with email and free,Chrome 99.0.4844.51,,SignUp,2022-03-11 11:07:03,2022-03-11 11:07:26,22.780s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-11 11:07:04,2022-03-11 11:07:05,1.833s,PASSED
+"setViewPortSize(1600, 900)",Chrome 99.0.4844.51,,,2022-03-11 11:07:05,2022-03-11 11:07:06,0.132s,PASSED
+"navigateToUrl(""https://app.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-11 11:07:06,2022-03-11 11:07:08,2.669s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:08,2022-03-11 11:07:09,0.598s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name""), ""Ruzan"")",Chrome 99.0.4844.51,,,2022-03-11 11:07:09,2022-03-11 11:07:10,1.291s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name""), ""Test"")",Chrome 99.0.4844.51,,,2022-03-11 11:07:10,2022-03-11 11:07:11,0.732s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email""), ""runayan@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-11 11:07:11,2022-03-11 11:07:12,0.808s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:07:12,2022-03-11 11:07:12,0.554s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:07:12,2022-03-11 11:07:13,0.769s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:13,2022-03-11 11:07:14,0.522s,PASSED
+"click(findTestObject(""SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:14,2022-03-11 11:07:14,0.367s,PASSED
+"Ms = verifyTextPresent(""The E-mail address exists."", false)",Chrome 99.0.4844.51,,,2022-03-11 11:07:14,2022-03-11 11:07:14,0.322s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:14,2022-03-11 11:07:16,1.271s,PASSED
+"click(findTestObject(""Choose packages/free package/Page_AdRoot  Sign up/button_Sign up_1""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:16,2022-03-11 11:07:16,0.567s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:16,2022-03-11 11:07:18,2.236s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:18,2022-03-11 11:07:19,0.950s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:19,2022-03-11 11:07:21,1.275s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:21,2022-03-11 11:07:21,0.360s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:21,2022-03-11 11:07:21,0.393s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:21,2022-03-11 11:07:22,1.071s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:22,2022-03-11 11:07:23,0.614s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:23,2022-03-11 11:07:24,0.568s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:07:24,2022-03-11 11:07:24,0.405s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:24,2022-03-11 11:07:24,0.497s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account""), 0)",Chrome 99.0.4844.51,,,2022-03-11 11:07:24,2022-03-11 11:07:25,0.853s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-11 11:07:25,2022-03-11 11:07:26,0.626s,PASSED
+,,,,,,,
+Test Cases/SignUp/Sign-up with email/SignUp with email and skip,Chrome 99.0.4844.51,,SignUp,2022-03-11 11:07:26,2022-03-11 11:07:47,21.514s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-11 11:07:26,2022-03-11 11:07:27,1.194s,PASSED
+"setViewPortSize(1600, 900)",Chrome 99.0.4844.51,,,2022-03-11 11:07:27,2022-03-11 11:07:28,0.131s,PASSED
+"navigateToUrl(""https://app.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-11 11:07:28,2022-03-11 11:07:30,2.234s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:30,2022-03-11 11:07:31,0.762s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name""), ""Ruzan"")",Chrome 99.0.4844.51,,,2022-03-11 11:07:31,2022-03-11 11:07:32,1.161s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name""), ""Test"")",Chrome 99.0.4844.51,,,2022-03-11 11:07:32,2022-03-11 11:07:32,0.691s,PASSED
+"setText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email""), ""runayan@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-11 11:07:32,2022-03-11 11:07:33,0.734s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:07:33,2022-03-11 11:07:34,0.541s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:07:34,2022-03-11 11:07:34,0.750s,PASSED
+"click(findTestObject(""Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:34,2022-03-11 11:07:35,0.495s,PASSED
+"click(findTestObject(""SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:35,2022-03-11 11:07:35,0.372s,PASSED
+"Ms = verifyTextPresent(""The E-mail address exists."", false)",Chrome 99.0.4844.51,,,2022-03-11 11:07:35,2022-03-11 11:07:36,0.319s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:36,2022-03-11 11:07:37,1.309s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Sign up/button_Skip Payment""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:37,2022-03-11 11:07:37,0.557s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:37,2022-03-11 11:07:40,2.335s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Create""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:40,2022-03-11 11:07:41,0.899s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4""), 0)",Chrome 99.0.4844.51,,,2022-03-11 11:07:41,2022-03-11 11:07:41,0.477s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:41,2022-03-11 11:07:42,0.419s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:42,2022-03-11 11:07:42,0.763s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:42,2022-03-11 11:07:43,0.397s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:43,2022-03-11 11:07:44,1.044s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:44,2022-03-11 11:07:44,0.604s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:44,2022-03-11 11:07:45,0.485s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-11 11:07:45,2022-03-11 11:07:45,0.413s,PASSED
+"click(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account""))",Chrome 99.0.4844.51,,,2022-03-11 11:07:45,2022-03-11 11:07:46,0.488s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account""), 0)",Chrome 99.0.4844.51,,,2022-03-11 11:07:46,2022-03-11 11:07:47,0.981s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-11 11:07:47,2022-03-11 11:07:47,0.689s,PASSED

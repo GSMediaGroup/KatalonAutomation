@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dev-create campaign suite,,,,2022-03-11 11:02:36,2022-03-11 11:02:45,8.999s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign,,,create campaign,2022-03-11 11:02:36,2022-03-11 11:02:39,2.605s,FAILED
+"openBrowser("""")",,,,2022-03-11 11:02:37,2022-03-11 11:02:39,2.255s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Reach campaign,,,Create campaign,2022-03-11 11:02:39,2022-03-11 11:02:41,1.658s,FAILED
+"openBrowser("""")",,,,2022-03-11 11:02:39,2022-03-11 11:02:41,1.314s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Traffic campaign,,,Create campaign,2022-03-11 11:02:41,2022-03-11 11:02:42,1.530s,FAILED
+"openBrowser("""")",,,,2022-03-11 11:02:41,2022-03-11 11:02:42,1.207s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Video views campaign,,,create campaign,2022-03-11 11:02:42,2022-03-11 11:02:44,1.437s,FAILED
+"openBrowser("""")",,,,2022-03-11 11:02:42,2022-03-11 11:02:44,1.179s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign - with targeting,,,create campaign,2022-03-11 11:02:44,2022-03-11 11:02:45,1.478s,FAILED
+"openBrowser("""")",,,,2022-03-11 11:02:44,2022-03-11 11:02:45,1.165s,FAILED
