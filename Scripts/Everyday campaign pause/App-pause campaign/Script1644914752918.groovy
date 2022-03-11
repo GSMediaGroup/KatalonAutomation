@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.setViewPortSize(1700, 900)
+
 WebUI.navigateToUrl('https://app.adroot.io/auth/signin')
 
 WebUI.setText(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel01@gmail.com')
@@ -29,13 +31,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Pause dev campaign/Page
 WebUI.sendKeys(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Login/input_Password_password'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Campaigns/img'))
+WebUI.click(findTestObject('Page_AdRoot  Campaigns/img'))
 
-WebUI.click(findTestObject('App-Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (app)'))
+WebUI.click(findTestObject('Page_AdRoot  Campaigns/div_By Ruzan (app)'))
 
-WebUI.click(findTestObject('Pause dev campaign/Page_AdRoot  Dashboard/a_Campaigns'))
+WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
-WebUI.click(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Campaigns/div_Campaign View'))
+WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View'))
 
 WebUI.click(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Campaigns/div_PAUSED_tree-dots dots-blue'))
 
@@ -67,7 +69,7 @@ WebUI.click(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Ca
 
 WebUI.click(findTestObject('Object Repository/Pause dev campaign/Page_AdRoot  Campaigns/button_Pause'))
 
-WebUI.click(findTestObject('Pause dev campaign/Page_AdRoot  Dashboard/a_Campaigns'))
+WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
 WebUI.closeBrowser()
 
