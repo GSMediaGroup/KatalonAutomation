@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dev-create campaign suite,Chrome 99.0.4844.82,,,2022-03-25 11:02:19,2022-03-25 11:02:36,16.930s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Reach campaign,Chrome 99.0.4844.82,,Create campaign,2022-03-25 11:02:19,2022-03-25 11:02:24,5.145s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 11:02:19,2022-03-25 11:02:22,2.539s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 11:02:22,2022-03-25 11:02:22,0.154s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 11:02:22,2022-03-25 11:02:24,1.725s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 11:02:24,2022-03-25 11:02:24,0.346s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Traffic campaign,Chrome 99.0.4844.82,,Create campaign,2022-03-25 11:02:24,2022-03-25 11:02:28,3.851s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 11:02:25,2022-03-25 11:02:26,1.853s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 11:02:26,2022-03-25 11:02:27,0.137s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 11:02:27,2022-03-25 11:02:28,1.289s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 11:02:28,2022-03-25 11:02:28,0.188s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Video views campaign,Chrome 99.0.4844.82,,create campaign,2022-03-25 11:02:28,2022-03-25 11:02:32,3.577s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 11:02:28,2022-03-25 11:02:30,2.015s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 11:02:30,2022-03-25 11:02:31,0.128s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 11:02:31,2022-03-25 11:02:32,1.004s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 11:02:32,2022-03-25 11:02:32,0.124s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign - with targeting,Chrome 99.0.4844.82,,create campaign,2022-03-25 11:02:32,2022-03-25 11:02:36,4.078s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 11:02:32,2022-03-25 11:02:34,1.793s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 11:02:34,2022-03-25 11:02:34,0.126s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 11:02:34,2022-03-25 11:02:36,1.548s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 11:02:36,2022-03-25 11:02:36,0.123s,FAILED

@@ -1,0 +1,159 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dev-create campaign suite,Chrome 99.0.4844.51,,,2022-03-16 10:57:00,2022-03-16 11:01:55,4m - 54.463s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign,Chrome 99.0.4844.51,,create campaign,2022-03-16 10:57:00,2022-03-16 10:57:42,42.134s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-16 10:57:01,2022-03-16 10:57:03,2.385s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.51,,,2022-03-16 10:57:03,2022-03-16 10:57:03,0.154s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-16 10:57:03,2022-03-16 10:57:08,4.538s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-16 10:57:08,2022-03-16 10:57:09,0.974s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-16 10:57:09,2022-03-16 10:57:09,0.579s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:09,2022-03-16 10:57:10,0.536s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:10,2022-03-16 10:57:11,0.859s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:11,2022-03-16 10:57:42,31.735s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Reach campaign,Chrome 99.0.4844.51,,Create campaign,2022-03-16 10:57:42,2022-03-16 10:58:16,33.978s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-16 10:57:43,2022-03-16 10:57:45,1.915s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.51,,,2022-03-16 10:57:45,2022-03-16 10:57:45,0.144s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-16 10:57:45,2022-03-16 10:57:48,3.678s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-16 10:57:48,2022-03-16 10:57:49,0.882s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-16 10:57:49,2022-03-16 10:57:50,0.581s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:50,2022-03-16 10:57:50,0.491s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:50,2022-03-16 10:57:52,1.776s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:52,2022-03-16 10:57:53,0.573s,PASSED
+"click(findTestObject(""Campaign copy/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:53,2022-03-16 10:57:55,2.175s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:55,2022-03-16 10:57:56,1.038s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:56,2022-03-16 10:57:57,0.651s,PASSED
+"setText(findTestObject(""Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input""), ""devadroot1"")",Chrome 99.0.4844.51,,,2022-03-16 10:57:57,2022-03-16 10:57:59,1.906s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:59,2022-03-16 10:57:59,0.500s,PASSED
+"click(findTestObject(""Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach""))",Chrome 99.0.4844.51,,,2022-03-16 10:57:59,2022-03-16 10:57:59,0.416s,PASSED
+"Ms = verifyTextPresent(""Name is taken"", false)",Chrome 99.0.4844.51,,,2022-03-16 10:57:59,2022-03-16 10:58:00,0.370s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:00,2022-03-16 10:58:01,1.212s,PASSED
+"verifyElementPresent(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense""), 0)",Chrome 99.0.4844.51,,,2022-03-16 10:58:01,2022-03-16 10:58:02,1.117s,PASSED
+"verifyElementPresent(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan""), 0)",Chrome 99.0.4844.51,,,2022-03-16 10:58:02,2022-03-16 10:58:02,0.340s,PASSED
+"click(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/button_Next Step""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:02,2022-03-16 10:58:03,0.410s,PASSED
+"click(findTestObject(""Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:03,2022-03-16 10:58:04,1.171s,PASSED
+"setText(findTestObject(""Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input""), ""Social media"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:04,2022-03-16 10:58:05,0.957s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input""), ""Social media ads management "")",Chrome 99.0.4844.51,,,2022-03-16 10:58:05,2022-03-16 10:58:06,1.047s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input""), ""Our Mission is to create one place for all advertising needs"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:06,2022-03-16 10:58:07,1.260s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input""), ""gsmediagroup.net"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:07,2022-03-16 10:58:08,0.929s,PASSED
+"click(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:08,2022-03-16 10:58:09,0.550s,PASSED
+"click(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:09,2022-03-16 10:58:10,1.027s,PASSED
+"click(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/button_Select""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:10,2022-03-16 10:58:10,0.541s,PASSED
+"mouseOver(findTestObject(""Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen""), STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 10:58:10,2022-03-16 10:58:11,0.676s,PASSED
+"click(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:11,2022-03-16 10:58:11,0.432s,PASSED
+"click(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:11,2022-03-16 10:58:12,0.411s,PASSED
+"setText(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input""), ""GS media"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:12,2022-03-16 10:58:13,1.281s,PASSED
+"setText(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input""), ""Ad management system"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:13,2022-03-16 10:58:14,1.148s,PASSED
+"click(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/button_Save""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:14,2022-03-16 10:58:15,0.504s,PASSED
+"click(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:15,2022-03-16 10:58:15,0.480s,PASSED
+"click(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:15,2022-03-16 10:58:16,1.135s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Traffic campaign,Chrome 99.0.4844.51,,Create campaign,2022-03-16 10:58:16,2022-03-16 10:59:40,1m - 24.047s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-16 10:58:17,2022-03-16 10:58:19,1.876s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.51,,,2022-03-16 10:58:19,2022-03-16 10:58:19,0.135s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:19,2022-03-16 10:58:28,8.643s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:28,2022-03-16 10:58:28,0.893s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-16 10:58:28,2022-03-16 10:58:29,0.549s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:29,2022-03-16 10:58:30,0.576s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:30,2022-03-16 10:58:32,2.019s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:32,2022-03-16 10:58:32,0.627s,PASSED
+"click(findTestObject(""Campaign copy/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:32,2022-03-16 10:58:34,2.313s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:34,2022-03-16 10:58:36,1.166s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:36,2022-03-16 10:58:36,0.602s,PASSED
+"setText(findTestObject(""Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input""), ""devadroot1"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:36,2022-03-16 10:58:38,1.779s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:38,2022-03-16 10:58:39,0.480s,PASSED
+"Ms = verifyTextPresent(""Name is taken"", false)",Chrome 99.0.4844.51,,,2022-03-16 10:58:39,2022-03-16 10:58:39,0.467s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:39,2022-03-16 10:58:40,1.382s,PASSED
+"verifyElementPresent(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense""), 0)",Chrome 99.0.4844.51,,,2022-03-16 10:58:40,2022-03-16 10:58:42,1.228s,PASSED
+"verifyElementPresent(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan""), 0)",Chrome 99.0.4844.51,,,2022-03-16 10:58:42,2022-03-16 10:58:42,0.330s,PASSED
+"click(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/button_Next Step""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:42,2022-03-16 10:58:42,0.398s,PASSED
+"click(findTestObject(""Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:42,2022-03-16 10:58:44,1.202s,PASSED
+"setText(findTestObject(""Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input""), ""Social media"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:44,2022-03-16 10:58:45,0.984s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input""), ""Social media ads management "")",Chrome 99.0.4844.51,,,2022-03-16 10:58:45,2022-03-16 10:58:46,1.088s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input""), ""Our Mission is to create one place for all advertising needs"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:46,2022-03-16 10:58:47,1.233s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input""), ""gsmediagroup.net"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:47,2022-03-16 10:58:48,0.966s,PASSED
+"click(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:48,2022-03-16 10:58:48,0.517s,PASSED
+"click(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:48,2022-03-16 10:58:49,0.953s,PASSED
+"click(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/button_Select""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:49,2022-03-16 10:58:50,0.504s,PASSED
+"mouseOver(findTestObject(""Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen""), STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 10:58:50,2022-03-16 10:58:51,0.766s,PASSED
+"click(findTestObject(""Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:51,2022-03-16 10:58:51,0.430s,PASSED
+"click(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:51,2022-03-16 10:58:51,0.377s,PASSED
+"setText(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input""), ""GS media"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:51,2022-03-16 10:58:53,1.347s,PASSED
+"setText(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input""), ""Ad management system"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:53,2022-03-16 10:58:54,1.134s,PASSED
+"click(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/button_Save""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:54,2022-03-16 10:58:54,0.496s,PASSED
+"mouseOver(findTestObject(""Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:54,2022-03-16 10:58:55,0.645s,PASSED
+"mouseOver(findTestObject(""Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_1052horAdhoem.comhoreAdAdAd""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:55,2022-03-16 10:58:56,0.555s,PASSED
+"click(findTestObject(""Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:56,2022-03-16 10:58:56,0.416s,PASSED
+"click(findTestObject(""Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_edit""))",Chrome 99.0.4844.51,,,2022-03-16 10:58:56,2022-03-16 10:58:56,0.434s,PASSED
+"setText(findTestObject(""Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input""), ""Create ads"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:56,2022-03-16 10:58:57,1.114s,PASSED
+"setText(findTestObject(""Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1""), ""Create campaigns"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:57,2022-03-16 10:58:59,1.039s,PASSED
+"setText(findTestObject(""Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2""), ""Ad management system"")",Chrome 99.0.4844.51,,,2022-03-16 10:58:59,2022-03-16 10:59:00,1.049s,PASSED
+"click(findTestObject(""Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:00,2022-03-16 10:59:00,0.484s,PASSED
+"click(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:00,2022-03-16 10:59:01,0.551s,PASSED
+"click(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:01,2022-03-16 10:59:03,1.982s,PASSED
+"setText(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input""), ""$ 1"")",Chrome 99.0.4844.51,,,2022-03-16 10:59:03,2022-03-16 10:59:04,1.322s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:04,2022-03-16 10:59:05,0.676s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:05,2022-03-16 10:59:05,0.836s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:05,2022-03-16 10:59:06,0.551s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:06,2022-03-16 10:59:07,0.543s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:07,2022-03-16 10:59:07,0.493s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/td_10""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:07,2022-03-16 10:59:08,0.521s,PASSED
+"click(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:08,2022-03-16 10:59:08,0.735s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING""), 0)",Chrome 99.0.4844.51,,,2022-03-16 10:59:08,2022-03-16 10:59:40,32.221s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Video views campaign,Chrome 99.0.4844.51,,create campaign,2022-03-16 10:59:40,2022-03-16 11:01:00,1m - 19.981s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-16 10:59:41,2022-03-16 10:59:43,1.991s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.51,,,2022-03-16 10:59:43,2022-03-16 10:59:43,0.133s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-16 10:59:43,2022-03-16 10:59:45,1.956s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-16 10:59:45,2022-03-16 10:59:46,0.997s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-16 10:59:46,2022-03-16 10:59:46,0.665s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:46,2022-03-16 10:59:47,0.486s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:47,2022-03-16 10:59:49,1.971s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:49,2022-03-16 10:59:50,0.736s,PASSED
+"click(findTestObject(""Campaign copy/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:50,2022-03-16 10:59:52,2.104s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:52,2022-03-16 10:59:53,1.180s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:53,2022-03-16 10:59:54,1.308s,PASSED
+"setText(findTestObject(""Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input""), ""devadroot1"")",Chrome 99.0.4844.51,,,2022-03-16 10:59:54,2022-03-16 10:59:56,1.807s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:56,2022-03-16 10:59:57,0.522s,PASSED
+"click(findTestObject(""Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Video Views""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:57,2022-03-16 10:59:57,0.384s,PASSED
+"Ms = verifyTextPresent(""Name is taken"", false)",Chrome 99.0.4844.51,,,2022-03-16 10:59:57,2022-03-16 10:59:57,0.318s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-16 10:59:57,2022-03-16 10:59:59,1.296s,PASSED
+"verifyElementPresent(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan""), 0)",Chrome 99.0.4844.51,,,2022-03-16 10:59:59,2022-03-16 11:00:00,1.234s,PASSED
+"click(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/button_Next Step""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:00,2022-03-16 11:00:00,0.417s,PASSED
+"click(findTestObject(""Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:00,2022-03-16 11:00:01,1.142s,PASSED
+"setText(findTestObject(""Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input""), ""Social media"")",Chrome 99.0.4844.51,,,2022-03-16 11:00:01,2022-03-16 11:00:02,0.917s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input""), ""Social media ads management "")",Chrome 99.0.4844.51,,,2022-03-16 11:00:02,2022-03-16 11:00:03,1.157s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input""), ""Our Mission is to create one place for all advertising needs"")",Chrome 99.0.4844.51,,,2022-03-16 11:00:03,2022-03-16 11:00:05,1.285s,PASSED
+"setText(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input""), ""gsmediagroup.net"")",Chrome 99.0.4844.51,,,2022-03-16 11:00:05,2022-03-16 11:00:06,1.003s,PASSED
+"click(findTestObject(""Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:06,2022-03-16 11:00:06,0.628s,PASSED
+"click(findTestObject(""Object Repository/Goals/Page_AdRoot  Create Campaign Steps/div_Videos_image-cont video""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:06,2022-03-16 11:00:07,0.983s,PASSED
+"click(findTestObject(""Step3/Page_AdRoot  Create Campaign Steps/button_Select""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:07,2022-03-16 11:00:08,0.577s,PASSED
+"click(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:08,2022-03-16 11:00:08,0.526s,PASSED
+"click(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:08,2022-03-16 11:00:10,1.348s,PASSED
+"setText(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input""), ""$ 1"")",Chrome 99.0.4844.51,,,2022-03-16 11:00:10,2022-03-16 11:00:13,3.385s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:13,2022-03-16 11:00:15,1.890s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:15,2022-03-16 11:00:17,1.995s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:17,2022-03-16 11:00:19,2.085s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:19,2022-03-16 11:00:21,1.940s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:21,2022-03-16 11:00:23,2.010s,PASSED
+"click(findTestObject(""Step 4,5/Page_AdRoot  Create Campaign Steps/td_10""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:23,2022-03-16 11:00:25,1.960s,PASSED
+"click(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish""))",Chrome 99.0.4844.51,,,2022-03-16 11:00:25,2022-03-16 11:00:27,2.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING""), 0)",Chrome 99.0.4844.51,,,2022-03-16 11:00:27,2022-03-16 11:01:00,33.412s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign - with targeting,Chrome 99.0.4844.51,,create campaign,2022-03-16 11:01:00,2022-03-16 11:01:55,54.082s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-16 11:01:01,2022-03-16 11:01:03,1.890s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.51,,,2022-03-16 11:01:03,2022-03-16 11:01:03,0.138s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.51,,,2022-03-16 11:01:03,2022-03-16 11:01:08,4.909s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-16 11:01:08,2022-03-16 11:01:09,1.143s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.51,,,2022-03-16 11:01:09,2022-03-16 11:01:09,0.605s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:09,2022-03-16 11:01:10,0.596s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:10,2022-03-16 11:01:12,1.812s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:12,2022-03-16 11:01:12,0.675s,PASSED
+"click(findTestObject(""Campaign copy/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:12,2022-03-16 11:01:14,1.997s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:14,2022-03-16 11:01:16,1.177s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:16,2022-03-16 11:01:16,0.813s,PASSED
+"setText(findTestObject(""Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input""), ""devadroot1"")",Chrome 99.0.4844.51,,,2022-03-16 11:01:16,2022-03-16 11:01:19,2.400s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:19,2022-03-16 11:01:19,0.473s,PASSED
+"click(findTestObject(""Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:19,2022-03-16 11:01:20,0.527s,PASSED
+"Ms = verifyTextPresent(""Name is taken"", false)",Chrome 99.0.4844.51,,,2022-03-16 11:01:20,2022-03-16 11:01:20,0.343s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.51,,,2022-03-16 11:01:20,2022-03-16 11:01:55,34.338s,FAILED

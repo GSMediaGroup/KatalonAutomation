@@ -6,12 +6,12 @@
    <elementGuidId>67586560-26b0-4c53-b85e-9220e0fdf035</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dynamic-table-body']/div/div[3]/div/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.status.pending</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'PENDING' or . = 'PENDING')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

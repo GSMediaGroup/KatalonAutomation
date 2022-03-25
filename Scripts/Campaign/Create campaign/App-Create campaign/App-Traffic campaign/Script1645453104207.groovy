@@ -114,6 +114,11 @@ WebUI.setText(findTestObject('Object Repository/Step3/Step 3 Google search/Page_
 WebUI.setText(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2'), 
     'Ad management system')
 
+WebUI.doubleClick(findTestObject('Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input'))
+
+WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input'), 
+    'campaign')
+
 WebUI.click(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))

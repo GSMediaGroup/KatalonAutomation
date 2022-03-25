@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dev-create campaign suite,Chrome 99.0.4844.82,,,2022-03-23 10:34:27,2022-03-23 10:35:20,53.272s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign,Chrome 99.0.4844.82,,create campaign,2022-03-23 10:34:27,2022-03-23 10:35:20,52.981s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-23 10:34:28,2022-03-23 10:34:31,2.899s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-23 10:34:31,2022-03-23 10:34:31,0.180s,PASSED
+"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-23 10:34:31,2022-03-23 10:34:33,2.096s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-23 10:34:33,2022-03-23 10:34:34,0.918s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.82,,,2022-03-23 10:34:34,2022-03-23 10:34:34,0.597s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:34,2022-03-23 10:34:35,0.547s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:35,2022-03-23 10:34:37,2.313s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:37,2022-03-23 10:34:38,0.756s,PASSED
+"click(findTestObject(""Campaign copy/Page_AdRoot  Dashboard/a_Campaigns""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:38,2022-03-23 10:34:40,2.410s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:40,2022-03-23 10:34:42,1.142s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:42,2022-03-23 10:34:42,0.520s,PASSED
+"setText(findTestObject(""Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input""), ""devadroot1"")",Chrome 99.0.4844.82,,,2022-03-23 10:34:42,2022-03-23 10:34:44,2.082s,PASSED
+"click(findTestObject(""Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:44,2022-03-23 10:34:45,0.924s,PASSED
+"click(findTestObject(""Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:45,2022-03-23 10:34:45,0.364s,PASSED
+"Ms = verifyTextPresent(""Name is taken"", false)",Chrome 99.0.4844.82,,,2022-03-23 10:34:45,2022-03-23 10:34:46,0.369s,PASSED
+"if (Ms.equals(""true""))",Chrome 99.0.4844.82,,,2022-03-23 10:34:46,2022-03-23 10:35:20,34.423s,FAILED

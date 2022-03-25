@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SignUp with packages" time="229.381" tests="5" failures="0" errors="0">
+   <testsuite name="SignUp with packages" tests="5" failures="0" errors="0" time="229.381" skipped="0" timestamp="2022-03-17 10:32:18" hostname="AdRoot_PC2 - GorsPC" id="Test Suites/Suits/SignUp with packages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220317_103200\\Suits\\SignUp with packages\\20220317_103201"/>
+         <property name="logFiles" value="C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220317_103200\\Suits\\SignUp with packages\\20220317_103201\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AdRoot_PC2 - GorsPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="aa715d91569a73858a5d0b51c84d3a96"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SignUp/Sign-up with email/Sig-up email-free-from landing" time="72.832" classname="Test Cases/SignUp/Sign-up with email/Sig-up email-free-from landing" status="PASSED">
+         <system-out><![CDATA[2022-03-17 10:32:18 - [TEST_CASE][PASSED] - Test Cases/SignUp/Sign-up with email/Sig-up email-free-from landing: Test Cases/SignUp/Sign-up with email/Sig-up email-free-from landing
+
+2022-03-17 10:32:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-17 10:32:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-17 10:32:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-17 10:32:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-17 10:32:25 - [TEST_STEP][PASSED] - setViewPortSize(1700, 900): Viewport is set to new size with width = 1700 and height = 900
+
+2022-03-17 10:32:25 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1700 and height = 900
+
+2022-03-17 10:32:25 - [TEST_STEP][PASSED] - navigateToUrl("http://adroot.io/"): Navigate to 'http://adroot.io/' successfully
+
+2022-03-17 10:32:37 - [MESSAGE][PASSED] - Navigate to 'http://adroot.io/' successfully
+
+2022-03-17 10:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/button_AGREE")): Object: 'Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/button_AGREE' is clicked on
+
+2022-03-17 10:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/button_AGREE' is clicked on
+
+2022-03-17 10:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/a_Pricing")): Object: 'Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/a_Pricing' is clicked on
+
+2022-03-17 10:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot Ad Manager - One Place To Manag_7de57e/a_Pricing' is clicked on
+
+2022-03-17 10:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_Pricing - AdRoot Ad Manager/a_Sign Up")): Object: 'Object Repository/Choose packages/Page_Pricing - AdRoot Ad Manager/a_Sign Up' is clicked on
+
+2022-03-17 10:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_Pricing - AdRoot Ad Manager/a_Sign Up' is clicked on
+
+2022-03-17 10:32:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name"), "Ruzan"): Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:32:53 - [MESSAGE][PASSED] - Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:32:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name"), "Test"): Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:32:53 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:32:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan@gmail.com"): Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:32:54 - [MESSAGE][PASSED] - Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:32:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:32:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:32:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:32:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:32:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox")): Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:32:56 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up")): Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:32:57 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("The E-mail address exists.", false): Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:32:57 - [MESSAGE][PASSED] - Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:32:57 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:32:57 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-17 10:32:57 - [TEST_STEP][PASSED] - RN = Math.random() * 500: null
+
+2022-03-17 10:32:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan" + RN + "@gmail.com"): Text 'runayan117@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:33:02 - [MESSAGE][PASSED] - Text 'runayan117@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:33:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:33:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:33:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:33:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:33:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name' is clicked on
+
+2022-03-17 10:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name' is clicked on
+
+2022-03-17 10:33:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:33:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content")): Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:33:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:33:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:33:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:33:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account"), 0): Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:33:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-17 10:33:30 - [MESSAGE][PASSED] - Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:33:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-17 10:33:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/Sign-up with email/SignUp with email and basic" time="66.024" classname="Test Cases/SignUp/Sign-up with email/SignUp with email and basic" status="PASSED">
+         <system-out><![CDATA[2022-03-17 10:33:31 - [TEST_CASE][PASSED] - Test Cases/SignUp/Sign-up with email/SignUp with email and basic: Test Cases/SignUp/Sign-up with email/SignUp with email and basic
+
+2022-03-17 10:33:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-17 10:33:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-17 10:33:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-17 10:33:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-17 10:33:33 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2022-03-17 10:33:33 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2022-03-17 10:33:33 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-17 10:33:35 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-17 10:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now")): Object: 'Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now' is clicked on
+
+2022-03-17 10:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now' is clicked on
+
+2022-03-17 10:33:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name"), "Ruzan"): Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:33:37 - [MESSAGE][PASSED] - Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:33:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name"), "Test"): Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:33:38 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:33:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan@gmail.com"): Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:33:38 - [MESSAGE][PASSED] - Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:33:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:33:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:33:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:33:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox")): Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:33:42 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up")): Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:33:43 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("The E-mail address exists.", false): Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:33:43 - [MESSAGE][PASSED] - Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:33:43 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:33:43 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-17 10:33:43 - [TEST_STEP][PASSED] - RN = Math.random() * 500: null
+
+2022-03-17 10:33:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan" + RN + "@gmail.com"): Text 'runayan370@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:33:44 - [MESSAGE][PASSED] - Text 'runayan370@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:33:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:33:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Sign up/button_Sign up_1")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Sign up/button_Sign up_1' is clicked on
+
+2022-03-17 10:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Sign up/button_Sign up_1' is clicked on
+
+2022-03-17 10:33:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber"), 0): Object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber' is present
+
+2022-03-17 10:33:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-17 10:33:49 - [MESSAGE][PASSED] - Object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber' is present
+
+2022-03-17 10:33:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber"), "5406 6100 0080 8837"): Text '5406 6100 0080 8837' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber'
+
+2022-03-17 10:33:51 - [MESSAGE][PASSED] - Text '5406 6100 0080 8837' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber'
+
+2022-03-17 10:33:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardExpiry"), "12 / 23"): Text '12 / 23' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardExpiry'
+
+2022-03-17 10:33:51 - [MESSAGE][PASSED] - Text '12 / 23' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardExpiry'
+
+2022-03-17 10:33:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardCvc"), "403"): Text '403' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardCvc'
+
+2022-03-17 10:33:52 - [MESSAGE][PASSED] - Text '403' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardCvc'
+
+2022-03-17 10:33:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__billingName"), "Harutyun Aghayan"): Text 'Harutyun Aghayan' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__billingName'
+
+2022-03-17 10:33:53 - [MESSAGE][PASSED] - Text 'Harutyun Aghayan' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__billingName'
+
+2022-03-17 10:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/div__SubmitButton-IconContainer")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/div__SubmitButton-IconContainer' is clicked on
+
+2022-03-17 10:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/div__SubmitButton-IconContainer' is clicked on
+
+2022-03-17 10:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b' is clicked on
+
+2022-03-17 10:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b' is clicked on
+
+2022-03-17 10:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_My Account")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_My Account' is clicked on
+
+2022-03-17 10:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_My Account' is clicked on
+
+2022-03-17 10:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_Payment")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_Payment' is clicked on
+
+2022-03-17 10:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_Payment' is clicked on
+
+2022-03-17 10:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_8837")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_8837' is clicked on
+
+2022-03-17 10:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_8837' is clicked on
+
+2022-03-17 10:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_View More_window-top-close")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_View More_window-top-close' is clicked on
+
+2022-03-17 10:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_View More_window-top-close' is clicked on
+
+2022-03-17 10:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name' is clicked on
+
+2022-03-17 10:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name' is clicked on
+
+2022-03-17 10:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:34:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content")): Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:34:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:34:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:34:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:34:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account"), 0): Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:34:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-17 10:34:36 - [MESSAGE][PASSED] - Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:34:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-17 10:34:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/Sign-up with email/SignUp with email and business" time="44.804" classname="Test Cases/SignUp/Sign-up with email/SignUp with email and business" status="PASSED">
+         <system-out><![CDATA[2022-03-17 10:34:37 - [TEST_CASE][PASSED] - Test Cases/SignUp/Sign-up with email/SignUp with email and business: Test Cases/SignUp/Sign-up with email/SignUp with email and business
+
+2022-03-17 10:34:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-17 10:34:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-17 10:34:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-17 10:34:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-17 10:34:39 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2022-03-17 10:34:39 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2022-03-17 10:34:39 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-17 10:34:44 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-17 10:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now")): Object: 'Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now' is clicked on
+
+2022-03-17 10:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now' is clicked on
+
+2022-03-17 10:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name"), "Ruzan"): Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:34:46 - [MESSAGE][PASSED] - Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name"), "Test"): Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:34:47 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan@gmail.com"): Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:34:48 - [MESSAGE][PASSED] - Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:34:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:34:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:34:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:34:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox")): Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:34:49 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up")): Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:34:50 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("The E-mail address exists.", false): Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:34:50 - [MESSAGE][PASSED] - Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:34:50 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:34:50 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-17 10:34:50 - [TEST_STEP][PASSED] - RN = Math.random() * 500: null
+
+2022-03-17 10:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan" + RN + "@gmail.com"): Text 'runayan128@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:34:51 - [MESSAGE][PASSED] - Text 'runayan128@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:34:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:34:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Choose packages/business package/Page_AdRoot  Sign up/button_Sign up_1")): Object: 'Object Repository/Choose packages/business package/Page_AdRoot  Sign up/button_Sign up_1' is clicked on
+
+2022-03-17 10:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/business package/Page_AdRoot  Sign up/button_Sign up_1' is clicked on
+
+2022-03-17 10:34:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber"), 0): Object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber' is present
+
+2022-03-17 10:34:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-17 10:34:57 - [MESSAGE][PASSED] - Object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber' is present
+
+2022-03-17 10:34:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber"), "5406 6100 0080 8837"): Text '5406 6100 0080 8837' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber'
+
+2022-03-17 10:34:58 - [MESSAGE][PASSED] - Text '5406 6100 0080 8837' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardNumber'
+
+2022-03-17 10:34:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardExpiry"), "12 / 23"): Text '12 / 23' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardExpiry'
+
+2022-03-17 10:34:59 - [MESSAGE][PASSED] - Text '12 / 23' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardExpiry'
+
+2022-03-17 10:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardCvc"), "403"): Text '403' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardCvc'
+
+2022-03-17 10:35:00 - [MESSAGE][PASSED] - Text '403' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__cardCvc'
+
+2022-03-17 10:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__billingName"), "Harutyun Aghayan"): Text 'Harutyun Aghayan' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__billingName'
+
+2022-03-17 10:35:01 - [MESSAGE][PASSED] - Text 'Harutyun Aghayan' is set on object 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/input__billingName'
+
+2022-03-17 10:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/div__SubmitButton-IconContainer")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/div__SubmitButton-IconContainer' is clicked on
+
+2022-03-17 10:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot Technologies LLC/div__SubmitButton-IconContainer' is clicked on
+
+2022-03-17 10:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b' is clicked on
+
+2022-03-17 10:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/img_No any notification_non-draggable-image_8aff0b' is clicked on
+
+2022-03-17 10:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_My Account")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_My Account' is clicked on
+
+2022-03-17 10:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_My Account' is clicked on
+
+2022-03-17 10:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_Payment")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_Payment' is clicked on
+
+2022-03-17 10:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_Payment' is clicked on
+
+2022-03-17 10:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_8837")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_8837' is clicked on
+
+2022-03-17 10:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_8837' is clicked on
+
+2022-03-17 10:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_View More_window-top-close")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_View More_window-top-close' is clicked on
+
+2022-03-17 10:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/div_View More_window-top-close' is clicked on
+
+2022-03-17 10:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:35:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name' is clicked on
+
+2022-03-17 10:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name' is clicked on
+
+2022-03-17 10:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content")): Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:35:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:35:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:35:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:35:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account"), 0): Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:35:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-17 10:35:21 - [MESSAGE][PASSED] - Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:35:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-17 10:35:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/Sign-up with email/SignUp with email and free" time="24.457" classname="Test Cases/SignUp/Sign-up with email/SignUp with email and free" status="PASSED">
+         <system-out><![CDATA[2022-03-17 10:35:22 - [TEST_CASE][PASSED] - Test Cases/SignUp/Sign-up with email/SignUp with email and free: Test Cases/SignUp/Sign-up with email/SignUp with email and free
+
+2022-03-17 10:35:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-17 10:35:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-17 10:35:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-17 10:35:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-17 10:35:23 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2022-03-17 10:35:24 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2022-03-17 10:35:24 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-17 10:35:28 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-17 10:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now")): Object: 'Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now' is clicked on
+
+2022-03-17 10:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now' is clicked on
+
+2022-03-17 10:35:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name"), "Ruzan"): Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:35:30 - [MESSAGE][PASSED] - Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:35:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name"), "Test"): Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:35:31 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:35:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan@gmail.com"): Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:35:32 - [MESSAGE][PASSED] - Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:35:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:35:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:35:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:35:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox")): Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:35:33 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up")): Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:35:34 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("The E-mail address exists.", false): Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:35:34 - [MESSAGE][PASSED] - Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:35:34 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:35:34 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-17 10:35:34 - [TEST_STEP][PASSED] - RN = Math.random() * 500: null
+
+2022-03-17 10:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan" + RN + "@gmail.com"): Text 'runayan365@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:35:35 - [MESSAGE][PASSED] - Text 'runayan365@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:35:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:35:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Choose packages/free package/Page_AdRoot  Sign up/button_Sign up_1")): Object: 'Object Repository/Choose packages/free package/Page_AdRoot  Sign up/button_Sign up_1' is clicked on
+
+2022-03-17 10:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/free package/Page_AdRoot  Sign up/button_Sign up_1' is clicked on
+
+2022-03-17 10:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name")): Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name' is clicked on
+
+2022-03-17 10:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name' is clicked on
+
+2022-03-17 10:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content")): Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:35:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:35:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:35:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account"), 0): Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:35:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-17 10:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:35:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-17 10:35:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/Sign-up with email/SignUp with email and skip" time="20.732" classname="Test Cases/SignUp/Sign-up with email/SignUp with email and skip" status="PASSED">
+         <system-out><![CDATA[2022-03-17 10:35:46 - [TEST_CASE][PASSED] - Test Cases/SignUp/Sign-up with email/SignUp with email and skip: Test Cases/SignUp/Sign-up with email/SignUp with email and skip
+
+2022-03-17 10:35:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-17 10:35:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-17 10:35:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-17 10:35:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-17 10:35:48 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2022-03-17 10:35:48 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2022-03-17 10:35:48 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-17 10:35:50 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-17 10:35:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now")): Object: 'Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now' is clicked on
+
+2022-03-17 10:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now' is clicked on
+
+2022-03-17 10:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name"), "Ruzan"): Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:35:52 - [MESSAGE][PASSED] - Text 'Ruzan' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'
+
+2022-03-17 10:35:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name"), "Test"): Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:35:52 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'
+
+2022-03-17 10:35:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan@gmail.com"): Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:35:53 - [MESSAGE][PASSED] - Text 'runayan@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:35:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:35:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'
+
+2022-03-17 10:35:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:35:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'
+
+2022-03-17 10:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox")): Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox' is clicked on
+
+2022-03-17 10:35:55 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up")): Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up' is clicked on
+
+2022-03-17 10:35:55 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("The E-mail address exists.", false): Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:35:55 - [MESSAGE][PASSED] - Text 'The E-mail address exists.' is present on page 
+
+2022-03-17 10:35:55 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:35:55 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-17 10:35:55 - [TEST_STEP][PASSED] - RN = Math.random() * 500: null
+
+2022-03-17 10:35:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email"), "runayan" + RN + "@gmail.com"): Text 'runayan15@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:35:56 - [MESSAGE][PASSED] - Text 'runayan15@gmail.com' is set on object 'Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'
+
+2022-03-17 10:35:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:35:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'
+
+2022-03-17 10:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Sign up/button_Skip Payment")): Object: 'Object Repository/Choose packages/Page_AdRoot  Sign up/button_Skip Payment' is clicked on
+
+2022-03-17 10:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Sign up/button_Skip Payment' is clicked on
+
+2022-03-17 10:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-17 10:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Create")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Create' is clicked on
+
+2022-03-17 10:36:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4"), 0): Object 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4' is present
+
+2022-03-17 10:36:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-17 10:36:01 - [MESSAGE][PASSED] - Object 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4' is present
+
+2022-03-17 10:36:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_' is clicked on
+
+2022-03-17 10:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_' is clicked on
+
+2022-03-17 10:36:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account' is clicked on
+
+2022-03-17 10:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account' is clicked on
+
+2022-03-17 10:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings' is clicked on
+
+2022-03-17 10:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account' is clicked on
+
+2022-03-17 10:36:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content")): Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content' is clicked on
+
+2022-03-17 10:36:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:36:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'
+
+2022-03-17 10:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account")): Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account' is clicked on
+
+2022-03-17 10:36:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account"), 0): Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-17 10:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account' is present
+
+2022-03-17 10:36:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-17 10:36:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-17 10:32:18 - [TEST_SUITE][PASSED] - SignUp with packages: Test Cases/SignUp/Sign-up with email/SignUp with email and skip]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

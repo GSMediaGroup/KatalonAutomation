@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dev-create campaign suite,Chrome 99.0.4844.82,,,2022-03-25 10:16:47,2022-03-25 10:20:21,3m - 34.896s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign,Chrome 99.0.4844.82,,create campaign,2022-03-25 10:16:47,2022-03-25 10:17:31,44.293s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 10:16:47,2022-03-25 10:16:51,3.118s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 10:16:51,2022-03-25 10:16:51,0.180s,PASSED
+"navigateToUrl(""https://dev2.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 10:16:51,2022-03-25 10:16:54,3.280s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 10:16:54,2022-03-25 10:16:55,1.304s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.82,,,2022-03-25 10:16:55,2022-03-25 10:16:56,0.640s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.82,,,2022-03-25 10:16:56,2022-03-25 10:16:57,0.581s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.82,,,2022-03-25 10:16:57,2022-03-25 10:16:59,2.743s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.82,,,2022-03-25 10:16:59,2022-03-25 10:17:31,31.977s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Reach campaign,Chrome 99.0.4844.82,,Create campaign,2022-03-25 10:17:31,2022-03-25 10:18:15,43.384s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 10:17:32,2022-03-25 10:17:34,2.080s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 10:17:34,2022-03-25 10:17:34,0.156s,PASSED
+"navigateToUrl(""https://dev2.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 10:17:34,2022-03-25 10:17:37,3.099s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 10:17:37,2022-03-25 10:17:39,1.441s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.82,,,2022-03-25 10:17:39,2022-03-25 10:17:39,0.674s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.82,,,2022-03-25 10:17:39,2022-03-25 10:17:40,0.561s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.82,,,2022-03-25 10:17:40,2022-03-25 10:17:43,2.798s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.82,,,2022-03-25 10:17:43,2022-03-25 10:18:15,31.850s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Traffic campaign,Chrome 99.0.4844.82,,Create campaign,2022-03-25 10:18:15,2022-03-25 10:18:58,42.892s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 10:18:15,2022-03-25 10:18:17,2.003s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 10:18:17,2022-03-25 10:18:18,0.128s,PASSED
+"navigateToUrl(""https://dev2.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 10:18:18,2022-03-25 10:18:21,3.410s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 10:18:21,2022-03-25 10:18:22,1.024s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.82,,,2022-03-25 10:18:22,2022-03-25 10:18:22,0.525s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.82,,,2022-03-25 10:18:22,2022-03-25 10:18:23,0.576s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.82,,,2022-03-25 10:18:23,2022-03-25 10:18:25,2.315s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.82,,,2022-03-25 10:18:25,2022-03-25 10:18:58,32.227s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Video views campaign,Chrome 99.0.4844.82,,create campaign,2022-03-25 10:18:58,2022-03-25 10:19:40,42.379s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 10:18:58,2022-03-25 10:19:00,2.065s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 10:19:00,2022-03-25 10:19:00,0.165s,PASSED
+"navigateToUrl(""https://dev2.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 10:19:00,2022-03-25 10:19:04,3.107s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 10:19:04,2022-03-25 10:19:04,0.969s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.82,,,2022-03-25 10:19:04,2022-03-25 10:19:05,0.563s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.82,,,2022-03-25 10:19:05,2022-03-25 10:19:06,0.507s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.82,,,2022-03-25 10:19:06,2022-03-25 10:19:08,2.436s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.82,,,2022-03-25 10:19:08,2022-03-25 10:19:40,31.963s,FAILED
+,,,,,,,
+Test Cases/Campaign/Create campaign/dev-Create campaign/Dev-Brand campaign - with targeting,Chrome 99.0.4844.82,,create campaign,2022-03-25 10:19:40,2022-03-25 10:20:21,41.524s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-25 10:19:41,2022-03-25 10:19:42,1.927s,PASSED
+"setViewPortSize(1550, 900)",Chrome 99.0.4844.82,,,2022-03-25 10:19:42,2022-03-25 10:19:43,0.124s,PASSED
+"navigateToUrl(""https://dev2.adroot.io/auth/signin"")",Chrome 99.0.4844.82,,,2022-03-25 10:19:43,2022-03-25 10:19:46,3.092s,PASSED
+"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-25 10:19:46,2022-03-25 10:19:47,0.988s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password""), ""9juLMCYi8sYpY2Mrwe5diw=="")",Chrome 99.0.4844.82,,,2022-03-25 10:19:47,2022-03-25 10:19:47,0.527s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in""))",Chrome 99.0.4844.82,,,2022-03-25 10:19:47,2022-03-25 10:19:48,0.589s,PASSED
+"click(findTestObject(""Page_AdRoot  Campaigns/img""))",Chrome 99.0.4844.82,,,2022-03-25 10:19:48,2022-03-25 10:19:50,1.810s,PASSED
+"click(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_By Ruzan (dev)""))",Chrome 99.0.4844.82,,,2022-03-25 10:19:50,2022-03-25 10:20:21,31.928s,FAILED
