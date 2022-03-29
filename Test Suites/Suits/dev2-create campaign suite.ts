@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>18555a25-c0e5-429c-9eb4-4e7410b56e5a</testSuiteGuid>
    <testCaseLink>
-      <guid>a6caaeb7-b2a2-4c0f-a97a-536ba0ca70e0</guid>
+      <guid>1bf2a3a7-6e05-407a-9e51-bfbaa4ffef2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Campaign/Create campaign/dev2-Create campaign/Dev-Brand campaign - with targeting</testCaseId>
+      <testCaseId>Test Cases/Campaign/Create campaign/dev2-Create campaign/Dev-Reach campaign</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b5eb8d18-c356-42dd-b145-17d145c7f615</guid>
@@ -24,10 +24,10 @@
       <testCaseId>Test Cases/Campaign/Create campaign/dev2-Create campaign/Dev-Brand campaign</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1bf2a3a7-6e05-407a-9e51-bfbaa4ffef2c</guid>
+      <guid>a6caaeb7-b2a2-4c0f-a97a-536ba0ca70e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Campaign/Create campaign/dev2-Create campaign/Dev-Reach campaign</testCaseId>
+      <testCaseId>Test Cases/Campaign/Create campaign/dev2-Create campaign/Dev-Brand campaign - with targeting</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bb0029fe-07dc-4593-ba8e-350e8edd3061</guid>
