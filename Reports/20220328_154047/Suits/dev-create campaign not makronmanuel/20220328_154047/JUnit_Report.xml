@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dev-create campaign not makronmanuel" time="240.001" tests="5" failures="2" errors="0">
+   <testsuite name="dev-create campaign not makronmanuel" tests="5" failures="2" errors="0" time="240.001" skipped="0" timestamp="2022-03-28 15:40:53" hostname="AdRoot_PC2 - GorsPC" id="Test Suites/Suits/dev-create campaign not makronmanuel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220328_154047\\Suits\\dev-create campaign not makronmanuel\\20220328_154047"/>
+         <property name="logFiles" value="C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220328_154047\\Suits\\dev-create campaign not makronmanuel\\20220328_154047\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220328_154047\\Suits\\dev-create campaign not makronmanuel\\20220328_154047\\1648467738289.png, C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220328_154047\\Suits\\dev-create campaign not makronmanuel\\20220328_154047\\1648467892939.png"/>
+         <property name="hostName" value="AdRoot_PC2 - GorsPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.84"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="8cc895e375ecd89e2eee83e0627011b4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign - with targeting" time="53.44" classname="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign - with targeting" status="PASSED">
+         <system-out><![CDATA[2022-03-28 15:40:53 - [TEST_CASE][PASSED] - Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign - with targeting: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign - with targeting
+
+2022-03-28 15:40:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 15:40:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 15:40:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-28 15:40:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 15:40:56 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:40:56 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:40:56 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.adroot.io/auth/signin"): Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:41:00 - [MESSAGE][PASSED] - Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:41:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "ruzatest@gmail.com"): Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:41:01 - [MESSAGE][PASSED] - Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:41:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:41:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:41:04 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:41:05 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "devadroot1"): Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:41:07 - [MESSAGE][PASSED] - Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:41:08 - [TEST_STEP][PASSED] - click(findTestObject("Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness")): Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness' is clicked on
+
+2022-03-28 15:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness' is clicked on
+
+2022-03-28 15:41:09 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-28 15:41:09 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-28 15:41:09 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:41:09 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-28 15:41:09 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-28 15:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "devadroot" + RN): Text 'devadroot519' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-28 15:41:10 - [MESSAGE][PASSED] - Text 'devadroot519' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-28 15:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:41:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-28 15:41:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-28 15:41:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:41:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:41:16 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:41:16 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:41:17 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:41:17 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:41:18 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:41:19 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:41:19 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image' is clicked on
+
+2022-03-28 15:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image' is clicked on
+
+2022-03-28 15:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:41:21 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-28 15:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-28 15:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-28 15:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-28 15:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-28 15:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-28 15:41:23 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input"), "GS media"): Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-28 15:41:24 - [MESSAGE][PASSED] - Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-28 15:41:24 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-28 15:41:25 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-28 15:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_English")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_English' is clicked on
+
+2022-03-28 15:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_English' is clicked on
+
+2022-03-28 15:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/li_All")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/li_All' is clicked on
+
+2022-03-28 15:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/li_All' is clicked on
+
+2022-03-28 15:41:28 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda' is double clicked on
+
+2022-03-28 15:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda' is double clicked on
+
+2022-03-28 15:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda' is clicked on
+
+2022-03-28 15:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda' is clicked on
+
+2022-03-28 15:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/label_All")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/label_All' is clicked on
+
+2022-03-28 15:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/label_All' is clicked on
+
+2022-03-28 15:41:31 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow' is double clicked on
+
+2022-03-28 15:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow' is double clicked on
+
+2022-03-28 15:41:31 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow' is clicked on
+
+2022-03-28 15:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow' is clicked on
+
+2022-03-28 15:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_23")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_23' is clicked on
+
+2022-03-28 15:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_23' is clicked on
+
+2022-03-28 15:41:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow' is double clicked on
+
+2022-03-28 15:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow' is double clicked on
+
+2022-03-28 15:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_64")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_64' is clicked on
+
+2022-03-28 15:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_64' is clicked on
+
+2022-03-28 15:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:41:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input"), "$ 1"): Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-28 15:41:36 - [MESSAGE][PASSED] - Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-28 15:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-28 15:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-28 15:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/td_10")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-28 15:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-28 15:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-28 15:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-28 15:41:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING"), 0): Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-28 15:41:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-28 15:41:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-28 15:41:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign" time="31.762" classname="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Brand campaign.run(Dev-Brand campaign:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be1082aa13e9846391c860123ebf65e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-03-28 15:41:47 - [TEST_CASE][FAILED] - Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Brand campaign.run(Dev-Brand campaign:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be1082aa13e9846391c860123ebf65e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-03-28 15:41:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 15:41:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 15:41:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-28 15:41:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 15:41:48 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:41:48 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:41:48 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.adroot.io/auth/signin"): Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:41:52 - [MESSAGE][PASSED] - Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:41:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "ruzatest@gmail.com"): Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:41:53 - [MESSAGE][PASSED] - Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:41:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:41:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:41:57 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "devadroot1"): Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:42:00 - [MESSAGE][PASSED] - Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness")): Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness' is clicked on
+
+2022-03-28 15:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness' is clicked on
+
+2022-03-28 15:42:01 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-28 15:42:01 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-28 15:42:01 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:01 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-28 15:42:01 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-28 15:42:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "devadroot" + RN): Text 'devadroot1430' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-28 15:42:02 - [MESSAGE][PASSED] - Text 'devadroot1430' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-28 15:42:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-28 15:42:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:42:04 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-28 15:42:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:42:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:42:04 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:42:04 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:42:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:42:07 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:42:07 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:42:08 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:42:08 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:42:09 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:42:09 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:42:10 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:42:10 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image' is clicked on
+
+2022-03-28 15:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image' is clicked on
+
+2022-03-28 15:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:42:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-28 15:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-28 15:42:13 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-28 15:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-28 15:42:13 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-28 15:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-28 15:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input"), "GS media"): Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-28 15:42:15 - [MESSAGE][PASSED] - Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-28 15:42:15 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-28 15:42:16 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-28 15:42:16 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:42:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:42:17 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Brand campaign.run(Dev-Brand campaign:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be1082aa13e9846391c860123ebf65e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1648467159477.run(Script1648467159477.groovy:100)
+	... 13 more
+)
+
+2022-03-28 15:42:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Brand campaign.run(Dev-Brand campaign:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be1082aa13e9846391c860123ebf65e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1648467159477.run(Script1648467159477.groovy:100)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220328_154047\\Suits\\dev-create campaign not makronmanuel\\20220328_154047\\1648467738289.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-28 15:41:47 - [TEST_CASE][FAILED] - Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Brand campaign.run(Dev-Brand campaign:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be1082aa13e9846391c860123ebf65e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Reach campaign" time="39.429" classname="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Reach campaign" status="PASSED">
+         <system-out><![CDATA[2022-03-28 15:42:18 - [TEST_CASE][PASSED] - Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Reach campaign: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Reach campaign
+
+2022-03-28 15:42:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 15:42:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-28 15:42:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 15:42:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-28 15:42:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 15:42:21 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:42:21 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:42:21 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.adroot.io/auth/signin"): Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:42:25 - [MESSAGE][PASSED] - Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:42:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "ruzatest@gmail.com"): Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:42:26 - [MESSAGE][PASSED] - Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:42:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:42:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:42:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "devadroot1"): Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:42:33 - [MESSAGE][PASSED] - Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach")): Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach' is clicked on
+
+2022-03-28 15:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach' is clicked on
+
+2022-03-28 15:42:34 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-28 15:42:34 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-28 15:42:34 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:34 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-28 15:42:34 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-28 15:42:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "devadroot" + RN): Text 'devadroot2442' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-28 15:42:35 - [MESSAGE][PASSED] - Text 'devadroot2442' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-28 15:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-28 15:42:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-28 15:42:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:42:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:42:37 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:42:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:42:39 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:42:39 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:42:40 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:42:40 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:42:42 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:42:42 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:42:42 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:42:42 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:42:43 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image' is clicked on
+
+2022-03-28 15:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image' is clicked on
+
+2022-03-28 15:42:44 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:42:44 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-28 15:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-28 15:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-28 15:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-28 15:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-28 15:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-28 15:42:46 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input"), "GS media"): Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-28 15:42:47 - [MESSAGE][PASSED] - Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-28 15:42:47 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-28 15:42:48 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-28 15:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:42:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:42:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:42:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input"), "$ 1"): Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-28 15:42:52 - [MESSAGE][PASSED] - Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-28 15:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-28 15:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-28 15:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:42:55 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/td_10")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-28 15:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-28 15:42:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-28 15:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-28 15:42:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING"), 0): Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-28 15:42:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-28 15:42:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-28 15:42:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Traffic campaign" time="44.93" classname="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Traffic campaign" status="PASSED">
+         <system-out><![CDATA[2022-03-28 15:42:58 - [TEST_CASE][PASSED] - Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Traffic campaign: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Traffic campaign
+
+2022-03-28 15:42:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 15:42:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 15:42:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-28 15:42:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 15:42:59 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:42:59 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:42:59 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.adroot.io/auth/signin"): Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:43:03 - [MESSAGE][PASSED] - Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:43:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "ruzatest@gmail.com"): Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:43:04 - [MESSAGE][PASSED] - Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:43:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:43:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:43:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:43:05 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:43:07 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:43:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "devadroot1"): Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:43:11 - [MESSAGE][PASSED] - Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:43:11 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:43:11 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-28 15:43:11 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-28 15:43:11 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:43:11 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-28 15:43:11 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-28 15:43:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "devadroot" + RN): Text 'devadroot1249' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-28 15:43:12 - [MESSAGE][PASSED] - Text 'devadroot1249' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-28 15:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:43:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-28 15:43:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:43:14 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-28 15:43:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:43:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:43:14 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:43:14 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:43:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:43:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:43:17 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:43:17 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:43:18 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:43:19 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:43:19 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:43:20 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:43:20 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image' is clicked on
+
+2022-03-28 15:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image' is clicked on
+
+2022-03-28 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:43:22 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-28 15:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-28 15:43:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-28 15:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-28 15:43:23 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-28 15:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-28 15:43:23 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input"), "GS media"): Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-28 15:43:25 - [MESSAGE][PASSED] - Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-28 15:43:25 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-28 15:43:26 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-28 15:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:43:26 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode' is hovered
+
+2022-03-28 15:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode' is hovered
+
+2022-03-28 15:43:27 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_1052horAdhoem.comhoreAdAdAd")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_1052horAdhoem.comhoreAdAdAd' is hovered
+
+2022-03-28 15:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_1052horAdhoem.comhoreAdAdAd' is hovered
+
+2022-03-28 15:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode' is clicked on
+
+2022-03-28 15:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode' is clicked on
+
+2022-03-28 15:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_edit")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_edit' is clicked on
+
+2022-03-28 15:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_edit' is clicked on
+
+2022-03-28 15:43:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input"), "Create ads"): Text 'Create ads' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input'
+
+2022-03-28 15:43:29 - [MESSAGE][PASSED] - Text 'Create ads' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input'
+
+2022-03-28 15:43:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1"), "Create campaigns"): Text 'Create campaigns' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1'
+
+2022-03-28 15:43:30 - [MESSAGE][PASSED] - Text 'Create campaigns' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1'
+
+2022-03-28 15:43:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2'
+
+2022-03-28 15:43:31 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2'
+
+2022-03-28 15:43:31 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input' is double clicked on
+
+2022-03-28 15:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input' is double clicked on
+
+2022-03-28 15:43:32 - [TEST_STEP][PASSED] - setText(findTestObject("Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input"), "campaign"): Text 'campaign' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input'
+
+2022-03-28 15:43:33 - [MESSAGE][PASSED] - Text 'campaign' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input'
+
+2022-03-28 15:43:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-28 15:43:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-28 15:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input"), "$ 1"): Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-28 15:43:37 - [MESSAGE][PASSED] - Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-28 15:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-28 15:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-28 15:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-28 15:43:40 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/td_10")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-28 15:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-28 15:43:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-28 15:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-28 15:43:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING"), 0): Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-28 15:43:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-28 15:43:42 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-03-28 15:43:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Video views campaign" time="70.14" classname="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Video views campaign" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Video views campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Video views campaign.run(Dev-Video views campaign:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;custom-button color-social-blue size-normal next-step active custom-button-primary&quot;>...&lt;/button> is not clickable at point (1451, 728). Other element would receive the click: &lt;div class=&quot;popup popup-huge-size media-library-modal&quot;>...&lt;/div>
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cc895e375ecd89e2eee83e0627011b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-03-28 15:43:43 - [TEST_CASE][FAILED] - Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Video views campaign: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Video views campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Video views campaign.run(Dev-Video views campaign:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="custom-button color-social-blue size-normal next-step active custom-button-primary">...</button> is not clickable at point (1451, 728). Other element would receive the click: <div class="popup popup-huge-size media-library-modal">...</div>
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cc895e375ecd89e2eee83e0627011b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-03-28 15:43:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 15:43:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 15:43:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-28 15:43:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 15:43:44 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:43:44 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-28 15:43:44 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.adroot.io/auth/signin"): Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:43:48 - [MESSAGE][PASSED] - Navigate to 'https://dev.adroot.io/auth/signin' successfully
+
+2022-03-28 15:43:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "ruzatest@gmail.com"): Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:43:49 - [MESSAGE][PASSED] - Text 'ruzatest@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-28 15:43:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:43:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-28 15:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-28 15:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-28 15:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-28 15:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-28 15:44:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "devadroot1"): Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:44:07 - [MESSAGE][PASSED] - Text 'devadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:44:07 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-28 15:44:08 - [TEST_STEP][PASSED] - click(findTestObject("Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Video Views")): Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Video Views' is clicked on
+
+2022-03-28 15:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Video Views' is clicked on
+
+2022-03-28 15:44:08 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-28 15:44:08 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-28 15:44:08 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:44:08 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-28 15:44:08 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-28 15:44:08 - [TEST_STEP][PASSED] - setText(findTestObject("Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "devadroot" + RN): Text 'devadroot1498' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:44:09 - [MESSAGE][PASSED] - Text 'devadroot1498' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-28 15:44:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:44:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:44:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 15:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-28 15:44:11 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-28 15:44:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-28 15:44:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:44:15 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-28 15:44:15 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:44:16 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-28 15:44:16 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:44:17 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-28 15:44:17 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:44:18 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-28 15:44:18 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-28 15:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Goals/Page_AdRoot  Create Campaign Steps/div_Videos_image-cont video")): Object: 'Object Repository/Goals/Page_AdRoot  Create Campaign Steps/div_Videos_image-cont video' is clicked on
+
+2022-03-28 15:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Page_AdRoot  Create Campaign Steps/div_Videos_image-cont video' is clicked on
+
+2022-03-28 15:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-28 15:44:20 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Video views campaign.run(Dev-Video views campaign:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="custom-button color-social-blue size-normal next-step active custom-button-primary">...</button> is not clickable at point (1451, 728). Other element would receive the click: <div class="popup popup-huge-size media-library-modal">...</div>
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cc895e375ecd89e2eee83e0627011b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1648467159508.run(Script1648467159508.groovy:83)
+	... 13 more
+)
+
+2022-03-28 15:44:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Video views campaign.run(Dev-Video views campaign:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="custom-button color-social-blue size-normal next-step active custom-button-primary">...</button> is not clickable at point (1451, 728). Other element would receive the click: <div class="popup popup-huge-size media-library-modal">...</div>
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cc895e375ecd89e2eee83e0627011b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1648467159508.run(Script1648467159508.groovy:83)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220328_154047\\Suits\\dev-create campaign not makronmanuel\\20220328_154047\\1648467892939.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-28 15:43:43 - [TEST_CASE][FAILED] - Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Video views campaign: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Video views campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Video views campaign.run(Dev-Video views campaign:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="custom-button color-social-blue size-normal next-step active custom-button-primary">...</button> is not clickable at point (1451, 728). Other element would receive the click: <div class="popup popup-huge-size media-library-modal">...</div>
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cc895e375ecd89e2eee83e0627011b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-28 15:40:53 - [TEST_SUITE][FAILED] - dev-create campaign not makronmanuel: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Brand campaign.run(Dev-Brand campaign:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be1082aa13e9846391c860123ebf65e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-03-28 15:40:53 - [TEST_SUITE][FAILED] - dev-create campaign not makronmanuel: Test Cases/Campaign/Create campaign/dev-Create campaign - not makronmanuel/Dev-Brand campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Dev-Brand campaign.run(Dev-Brand campaign:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648467647468.run(TempTestSuite1648467647468.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be1082aa13e9846391c860123ebf65e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

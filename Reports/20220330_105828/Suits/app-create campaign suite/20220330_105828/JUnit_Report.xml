@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="app-create campaign suite" time="323.845" tests="5" failures="0" errors="0">
+   <testsuite name="app-create campaign suite" tests="5" failures="0" errors="0" time="323.845" skipped="0" timestamp="2022-03-30 10:58:33" hostname="AdRoot_PC2 - GorsPC" id="Test Suites/Suits/app-create campaign suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220330_105828\\Suits\\app-create campaign suite\\20220330_105828"/>
+         <property name="logFiles" value="C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220330_105828\\Suits\\app-create campaign suite\\20220330_105828\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220330_105828\\Suits\\app-create campaign suite\\20220330_105828\\1648623548199.png, C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220330_105828\\Suits\\app-create campaign suite\\20220330_105828\\1648623580667.png, C:\\Users\\AdRoot_PC2\\git\\KatalonAutomation\\Reports\\20220330_105828\\Suits\\app-create campaign suite\\20220330_105828\\1648623702069.png"/>
+         <property name="hostName" value="AdRoot_PC2 - GorsPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.84"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="0bc20ad9ba66e9b81a7b1d5bf8a13ac5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign" time="41.811" classname="Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign" status="PASSED">
+         <system-out><![CDATA[2022-03-30 10:59:41 - [TEST_CASE][PASSED] - Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign: Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-30 10:59:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-30 10:59:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-30 10:59:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-30 10:59:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-30 10:59:42 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 10:59:43 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 10:59:43 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 10:59:45 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 10:59:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "makronmanuel01@gmail.com"): Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 10:59:46 - [MESSAGE][PASSED] - Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 10:59:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 10:59:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 10:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 10:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 10:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/img")): Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 10:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 10:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/div_By Ruzan (app)")): Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 10:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 10:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 10:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 10:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 10:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 10:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 10:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 10:59:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "appadroot1"): Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 10:59:56 - [MESSAGE][PASSED] - Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 10:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 10:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 10:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness")): Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness' is clicked on
+
+2022-03-30 10:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness' is clicked on
+
+2022-03-30 10:59:57 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-30 10:59:58 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-30 10:59:58 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 10:59:58 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-30 10:59:58 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-30 10:59:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "appadroot" + RN): Text 'appadroot4904' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 10:59:58 - [MESSAGE][PASSED] - Text 'appadroot4904' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 10:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 10:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 10:59:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-30 10:59:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:00:00 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-30 11:00:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:00:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:00:00 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:00:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:00:03 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:00:03 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:00:04 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:00:04 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:00:05 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:00:05 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:00:06 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:00:06 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:00:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg")): Object: 'Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg' is clicked on
+
+2022-03-30 11:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg' is clicked on
+
+2022-03-30 11:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:00:08 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-30 11:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-30 11:00:09 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-30 11:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-30 11:00:09 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-30 11:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-30 11:00:10 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input"), "GS media"): Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-30 11:00:11 - [MESSAGE][PASSED] - Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-30 11:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-30 11:00:12 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-30 11:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:00:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input"), "$ 1"): Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:00:16 - [MESSAGE][PASSED] - Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:00:17 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:17 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/td_10")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:00:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING"), 0): Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:00:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:00:22 - [MESSAGE][PASSED] - Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-30 11:00:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign/Create campaign/App-Create campaign/App-Reach campaign" time="40.27" classname="Test Cases/Campaign/Create campaign/App-Create campaign/App-Reach campaign" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:00:22 - [TEST_CASE][PASSED] - Test Cases/Campaign/Create campaign/App-Create campaign/App-Reach campaign: Test Cases/Campaign/Create campaign/App-Create campaign/App-Reach campaign
+
+2022-03-30 11:00:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-30 11:00:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-30 11:00:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-30 11:00:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 11:00:24 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 11:00:26 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 11:00:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "makronmanuel01@gmail.com"): Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 11:00:27 - [MESSAGE][PASSED] - Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 11:00:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 11:00:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 11:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 11:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 11:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/img")): Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 11:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 11:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/div_By Ruzan (app)")): Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 11:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 11:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 11:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 11:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 11:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 11:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 11:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 11:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "appadroot1"): Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 11:00:37 - [MESSAGE][PASSED] - Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 11:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 11:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 11:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach")): Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach' is clicked on
+
+2022-03-30 11:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach' is clicked on
+
+2022-03-30 11:00:38 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-30 11:00:38 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-30 11:00:38 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:00:38 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-30 11:00:38 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-30 11:00:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "appadroot" + RN): Text 'appadroot459' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 11:00:39 - [MESSAGE][PASSED] - Text 'appadroot459' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 11:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:00:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-30 11:00:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:00:41 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-30 11:00:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:00:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:00:41 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:00:41 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:00:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:00:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:00:43 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:00:44 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:00:44 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:00:46 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:00:47 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg")): Object: 'Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg' is clicked on
+
+2022-03-30 11:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg' is clicked on
+
+2022-03-30 11:00:48 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:00:48 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-30 11:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-30 11:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-30 11:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-30 11:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-30 11:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-30 11:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input"), "GS media"): Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-30 11:00:51 - [MESSAGE][PASSED] - Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-30 11:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-30 11:00:52 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-30 11:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input"), "$ 1"): Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:00:56 - [MESSAGE][PASSED] - Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:59 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:00:59 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/td_10")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:01:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:01:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING"), 0): Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:01:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:01:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-30 11:01:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign/Create campaign/App-Create campaign/App-Traffic campaign" time="47.591" classname="Test Cases/Campaign/Create campaign/App-Create campaign/App-Traffic campaign" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:01:42 - [TEST_CASE][PASSED] - Test Cases/Campaign/Create campaign/App-Create campaign/App-Traffic campaign: Test Cases/Campaign/Create campaign/App-Create campaign/App-Traffic campaign
+
+2022-03-30 11:01:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-30 11:01:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-30 11:01:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-30 11:01:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-30 11:01:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-30 11:01:44 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 11:01:44 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 11:01:44 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 11:01:46 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 11:01:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "makronmanuel01@gmail.com"): Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 11:01:47 - [MESSAGE][PASSED] - Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 11:01:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 11:01:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 11:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 11:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 11:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/img")): Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 11:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 11:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/div_By Ruzan (app)")): Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 11:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 11:01:51 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 11:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 11:01:53 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 11:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 11:01:54 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 11:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 11:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "appadroot1"): Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 11:01:57 - [MESSAGE][PASSED] - Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 11:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 11:01:57 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-30 11:01:58 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-30 11:01:58 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:01:58 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-30 11:01:58 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-30 11:01:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "appadroot" + RN): Text 'appadroot220' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 11:01:59 - [MESSAGE][PASSED] - Text 'appadroot220' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 11:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:01:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-30 11:01:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:02:00 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-30 11:02:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:02:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:02:03 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:02:03 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:02:04 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:02:04 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:02:05 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:02:05 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:02:06 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:02:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg")): Object: 'Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg' is clicked on
+
+2022-03-30 11:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg' is clicked on
+
+2022-03-30 11:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:02:08 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-30 11:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-30 11:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-30 11:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-30 11:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-30 11:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-30 11:02:10 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input"), "GS media"): Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-30 11:02:11 - [MESSAGE][PASSED] - Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-30 11:02:11 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-30 11:02:12 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-30 11:02:12 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:02:13 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode' is hovered
+
+2022-03-30 11:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode' is hovered
+
+2022-03-30 11:02:13 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_1052horAdhoem.comhoreAdAdAd")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_1052horAdhoem.comhoreAdAdAd' is hovered
+
+2022-03-30 11:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_1052horAdhoem.comhoreAdAdAd' is hovered
+
+2022-03-30 11:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode' is clicked on
+
+2022-03-30 11:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_actions-mode' is clicked on
+
+2022-03-30 11:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_edit")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_edit' is clicked on
+
+2022-03-30 11:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_edit' is clicked on
+
+2022-03-30 11:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input"), "Create ads"): Text 'Create ads' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input'
+
+2022-03-30 11:02:16 - [MESSAGE][PASSED] - Text 'Create ads' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input'
+
+2022-03-30 11:02:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1"), "Create campaigns"): Text 'Create campaigns' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1'
+
+2022-03-30 11:02:17 - [MESSAGE][PASSED] - Text 'Create campaigns' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1'
+
+2022-03-30 11:02:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2'
+
+2022-03-30 11:02:18 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2'
+
+2022-03-30 11:02:18 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input' is double clicked on
+
+2022-03-30 11:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input' is double clicked on
+
+2022-03-30 11:02:19 - [TEST_STEP][PASSED] - setText(findTestObject("Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input"), "campaign"): Text 'campaign' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input'
+
+2022-03-30 11:02:19 - [MESSAGE][PASSED] - Text 'campaign' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input'
+
+2022-03-30 11:02:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:02:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:02:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:02:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input"), "$ 1"): Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:02:23 - [MESSAGE][PASSED] - Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:02:23 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:02:25 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:02:25 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:02:26 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:02:26 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/td_10")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:02:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING"), 0): Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:02:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:02:29 - [MESSAGE][PASSED] - Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:02:29 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-03-30 11:02:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign/Create campaign/App-Create campaign/App-Video views" time="39.179" classname="Test Cases/Campaign/Create campaign/App-Create campaign/App-Video views" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:02:30 - [TEST_CASE][PASSED] - Test Cases/Campaign/Create campaign/App-Create campaign/App-Video views: Test Cases/Campaign/Create campaign/App-Create campaign/App-Video views
+
+2022-03-30 11:02:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-30 11:02:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-30 11:02:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-30 11:02:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-30 11:02:31 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 11:02:31 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 11:02:31 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 11:02:33 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 11:02:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "makronmanuel01@gmail.com"): Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 11:02:35 - [MESSAGE][PASSED] - Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 11:02:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 11:02:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 11:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 11:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 11:02:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/img")): Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 11:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 11:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/div_By Ruzan (app)")): Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 11:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 11:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 11:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 11:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 11:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 11:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 11:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 11:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "appadroot1"): Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 11:02:44 - [MESSAGE][PASSED] - Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 11:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 11:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 11:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Video Views")): Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Video Views' is clicked on
+
+2022-03-30 11:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Video Views' is clicked on
+
+2022-03-30 11:02:45 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-30 11:02:45 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-30 11:02:45 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:02:45 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-30 11:02:45 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-30 11:02:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "appadroot" + RN): Text 'appadroot4743' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 11:02:46 - [MESSAGE][PASSED] - Text 'appadroot4743' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 11:02:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:02:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:02:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:02:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:02:50 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:02:51 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:02:52 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:02:52 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:02:53 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:02:53 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Goals/Page_AdRoot  Create Campaign Steps/div_Videos_image-cont video")): Object: 'Object Repository/Goals/Page_AdRoot  Create Campaign Steps/div_Videos_image-cont video' is clicked on
+
+2022-03-30 11:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Page_AdRoot  Create Campaign Steps/div_Videos_image-cont video' is clicked on
+
+2022-03-30 11:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:02:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:02:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input"), "$ 1"): Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:03:02 - [MESSAGE][PASSED] - Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:03:02 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:03:03 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:05 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:05 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/td_10")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:03:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:03:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING"), 0): Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:03:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:03:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-30 11:03:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign - with targeting" time="47.938" classname="Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign - with targeting" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:03:09 - [TEST_CASE][PASSED] - Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign - with targeting: Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign - with targeting
+
+2022-03-30 11:03:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-30 11:03:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-30 11:03:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-30 11:03:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-30 11:03:10 - [TEST_STEP][PASSED] - setViewPortSize(1550, 900): Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 11:03:10 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1550 and height = 900
+
+2022-03-30 11:03:10 - [TEST_STEP][PASSED] - navigateToUrl("https://app.adroot.io/auth/signin"): Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 11:03:13 - [MESSAGE][PASSED] - Navigate to 'https://app.adroot.io/auth/signin' successfully
+
+2022-03-30 11:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email"), "makronmanuel01@gmail.com"): Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 11:03:14 - [MESSAGE][PASSED] - Text 'makronmanuel01@gmail.com' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'
+
+2022-03-30 11:03:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password"), "9juLMCYi8sYpY2Mrwe5diw=="): Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 11:03:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'
+
+2022-03-30 11:03:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 11:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Login/button_Sign in' is clicked on
+
+2022-03-30 11:03:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/img")): Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 11:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/img' is clicked on
+
+2022-03-30 11:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdRoot  Campaigns/div_By Ruzan (app)")): Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 11:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdRoot  Campaigns/div_By Ruzan (app)' is clicked on
+
+2022-03-30 11:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Campaign copy/Page_AdRoot  Dashboard/a_Campaigns")): Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 11:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Campaign copy/Page_AdRoot  Dashboard/a_Campaigns' is clicked on
+
+2022-03-30 11:03:20 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 11:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View' is clicked on
+
+2022-03-30 11:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 11:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign' is clicked on
+
+2022-03-30 11:03:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input"), "appadroot1"): Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 11:03:23 - [MESSAGE][PASSED] - Text 'appadroot1' is set on object 'Object Repository/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'
+
+2022-03-30 11:03:23 - [TEST_STEP][PASSED] - click(findTestObject("Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 11:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken' is clicked on
+
+2022-03-30 11:03:24 - [TEST_STEP][PASSED] - click(findTestObject("Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness")): Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness' is clicked on
+
+2022-03-30 11:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness' is clicked on
+
+2022-03-30 11:03:24 - [TEST_STEP][PASSED] - Ms = verifyTextPresent("Name is taken", false): Text 'Name is taken' is present on page 
+
+2022-03-30 11:03:25 - [MESSAGE][PASSED] - Text 'Name is taken' is present on page 
+
+2022-03-30 11:03:25 - [TEST_STEP][PASSED] - if (Ms.equals("true")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:03:25 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-03-30 11:03:25 - [TEST_STEP][PASSED] - RN = Math.random() * 5000: null
+
+2022-03-30 11:03:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input"), "devadroot" + RN): Text 'devadroot1585' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 11:03:25 - [MESSAGE][PASSED] - Text 'devadroot1585' is set on object 'Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'
+
+2022-03-30 11:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:03:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-30 11:03:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_GS PubSense' is present
+
+2022-03-30 11:03:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan"), 0): Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:03:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Artashes Mxchyan' is present
+
+2022-03-30 11:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/button_Next Step")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/button_Next Step' is clicked on
+
+2022-03-30 11:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input' is clicked on
+
+2022-03-30 11:03:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input"), "Social media"): Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:03:30 - [MESSAGE][PASSED] - Text 'Social media' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'
+
+2022-03-30 11:03:30 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input"), "Social media ads management "): Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:03:31 - [MESSAGE][PASSED] - Text 'Social media ads management ' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Headline_custom-input'
+
+2022-03-30 11:03:31 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input"), "Our Mission is to create one place for all advertising needs"): Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:03:32 - [MESSAGE][PASSED] - Text 'Our Mission is to create one place for all advertising needs' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Ad Description_custom-input'
+
+2022-03-30 11:03:32 - [TEST_STEP][PASSED] - setText(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input"), "gsmediagroup.net"): Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:03:33 - [MESSAGE][PASSED] - Text 'gsmediagroup.net' is set on object 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'
+
+2022-03-30 11:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD")): Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD' is clicked on
+
+2022-03-30 11:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg")): Object: 'Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg' is clicked on
+
+2022-03-30 11:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg' is clicked on
+
+2022-03-30 11:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Select")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Select' is clicked on
+
+2022-03-30 11:03:35 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-30 11:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen' is hovered
+
+2022-03-30 11:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-30 11:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode' is clicked on
+
+2022-03-30 11:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-30 11:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit' is clicked on
+
+2022-03-30 11:03:37 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input"), "GS media"): Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-30 11:03:38 - [MESSAGE][PASSED] - Text 'GS media' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'
+
+2022-03-30 11:03:38 - [TEST_STEP][PASSED] - setText(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input"), "Ad management system"): Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-30 11:03:39 - [MESSAGE][PASSED] - Text 'Ad management system' is set on object 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'
+
+2022-03-30 11:03:39 - [TEST_STEP][PASSED] - click(findTestObject("Step3/Page_AdRoot  Create Campaign Steps/button_Save")): Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Step3/Page_AdRoot  Create Campaign Steps/button_Save' is clicked on
+
+2022-03-30 11:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_English")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_English' is clicked on
+
+2022-03-30 11:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_English' is clicked on
+
+2022-03-30 11:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/li_All")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/li_All' is clicked on
+
+2022-03-30 11:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/li_All' is clicked on
+
+2022-03-30 11:03:42 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda' is double clicked on
+
+2022-03-30 11:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda' is double clicked on
+
+2022-03-30 11:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda' is clicked on
+
+2022-03-30 11:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_Antigua and Barbuda' is clicked on
+
+2022-03-30 11:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/label_All")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/label_All' is clicked on
+
+2022-03-30 11:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/label_All' is clicked on
+
+2022-03-30 11:03:45 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow' is double clicked on
+
+2022-03-30 11:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow' is double clicked on
+
+2022-03-30 11:03:46 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow' is clicked on
+
+2022-03-30 11:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_From_arrow' is clicked on
+
+2022-03-30 11:03:47 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_23")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_23' is clicked on
+
+2022-03-30 11:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_23' is clicked on
+
+2022-03-30 11:03:47 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow' is double clicked on
+
+2022-03-30 11:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow' is double clicked on
+
+2022-03-30 11:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Targeting/Page_AdRoot  Create Campaign Steps/div_64")): Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_64' is clicked on
+
+2022-03-30 11:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Targeting/Page_AdRoot  Create Campaign Steps/div_64' is clicked on
+
+2022-03-30 11:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)' is clicked on
+
+2022-03-30 11:03:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input"), "$ 1"): Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:03:50 - [MESSAGE][PASSED] - Text '$ 1' is set on object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+
+2022-03-30 11:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Start_single-date-picker-datepicker-y6DXOBYbq5i4SX3nAPEZ' is clicked on
+
+2022-03-30 11:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/svg_Su_DayPickerNavigation_svg__horizontal DayPickerNavigation_svg__horizontal_1' is clicked on
+
+2022-03-30 11:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Step 4,5/Page_AdRoot  Create Campaign Steps/td_10")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/td_10' is clicked on
+
+2022-03-30 11:03:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish")): Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish' is clicked on
+
+2022-03-30 11:03:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING"), 0): Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:03:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-30 11:03:56 - [MESSAGE][PASSED] - Object 'Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING' is present
+
+2022-03-30 11:03:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-30 11:03:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-30 10:58:33 - [TEST_SUITE][FAILED] - app-create campaign suite: Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '$ 1' of object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at App-Brand campaign.run(App-Brand campaign:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648623508131.run(TempTestSuite1648623508131.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 409196753c1f4b88188232a8064be331
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-03-30 10:58:33 - [TEST_SUITE][FAILED] - app-create campaign suite: Test Cases/Campaign/Create campaign/App-Create campaign/App-Brand campaign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '$ 1' of object 'Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at App-Brand campaign.run(App-Brand campaign:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648623508131.run(TempTestSuite1648623508131.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GORSPC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\AdRoot_PC2\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 409196753c1f4b88188232a8064be331
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

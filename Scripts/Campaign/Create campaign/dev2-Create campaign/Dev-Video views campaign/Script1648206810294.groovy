@@ -32,9 +32,7 @@ WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoo
 
 WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
-WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View'))
-
-WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/button_Create campaign'))
 
 WebUI.setText(findTestObject('Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 'devadroot1')
 
@@ -49,7 +47,7 @@ if (Ms.equals('true')) {
 
     RN = ((Math.random() * 5000) as int)
 
-    WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 
+    WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot Ad Manager - One Place To Manag_7de57e/Page_AdRoot  Create Campaign Steps/input_Campaign_name_custom-input'), 
         'devadroot' + RN)
 
     WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step'))

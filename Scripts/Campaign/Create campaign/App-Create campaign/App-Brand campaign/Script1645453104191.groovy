@@ -36,9 +36,7 @@ WebUI.click(findTestObject('Page_AdRoot  Campaigns/div_By Ruzan (app)'))
 
 WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
-WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View'))
-
-WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/button_Create campaign'))
 
 WebUI.setText(findTestObject('Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 'appadroot1')
 
@@ -121,6 +119,8 @@ WebUI.click(findTestObject('Step 4,5/Page_AdRoot  Create Campaign Steps/td_10'))
 WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING'), 0)
+
+WebUI.closeBrowser()
 
 WebUI.closeBrowser()
 
