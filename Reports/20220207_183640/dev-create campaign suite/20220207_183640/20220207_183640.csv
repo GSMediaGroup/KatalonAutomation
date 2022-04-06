@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-dev-create campaign suite,Chrome 97.0.4692.99,,,2022-02-07 18:36:45,2022-02-07 18:37:36,51.272s,FAILED
-,,,,,,,
-Test Cases/Everyday create campaign/dev-Create campaign/dev-Brand,Chrome 97.0.4692.99,,create campaign,2022-02-07 18:37:33,2022-02-07 18:37:36,3.785s,FAILED
-"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-07 18:37:33,2022-02-07 18:37:35,1.810s,PASSED
-"setViewPortSize(1550, 900)",Chrome 97.0.4692.99,,,2022-02-07 18:37:35,2022-02-07 18:37:35,0.139s,PASSED
-"navigateToUrl(""https://dev.adroot.io/auth/signin"")",Chrome 97.0.4692.99,,,2022-02-07 18:37:35,2022-02-07 18:37:36,1.562s,PASSED
-"setText(findTestObject(""Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email""), ""makronmanuel01@gmail.com"")",Chrome 97.0.4692.99,,,2022-02-07 18:37:36,2022-02-07 18:37:36,0.268s,FAILED

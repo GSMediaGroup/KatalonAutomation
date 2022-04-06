@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Ad_edit</name>
+   <name>div_Open_edit</name>
    <tag></tag>
-   <elementGuidId>fb489686-9902-49ff-b61c-165f5af88ae0</elementGuidId>
+   <elementGuidId>8ff7dbf0-7e77-47f0-82b8-1f94f3eb74fd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div[3]/div/div</value>
+         <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div[3]/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -42,13 +42,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div[3]/div/div</value>
+      <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div[3]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[3]/div/div</value>
+      <value>//div[3]/div[3]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

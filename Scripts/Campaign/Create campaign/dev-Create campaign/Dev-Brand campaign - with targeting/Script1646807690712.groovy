@@ -32,9 +32,7 @@ WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoo
 
 WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
-WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_Campaign View'))
-
-WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/div_New Campaign'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/button_Create campaign'))
 
 WebUI.setText(findTestObject('Page_AdRoot  Create Campaign Steps/input_Campaign name_custom-input'), 'devadroot1')
 
@@ -63,6 +61,8 @@ WebUI.verifyElementPresent(findTestObject('Step2/Page_AdRoot  Create Campaign St
 
 WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/button_Next Step'))
 
+WebUI.click(findTestObject('Audience/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_autofill form_toggle-arrow'))
+
 WebUI.click(findTestObject('Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'))
 
 WebUI.setText(findTestObject('Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'), 
@@ -76,26 +76,21 @@ WebUI.setText(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/Page_AdRo
 
 WebUI.setText(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/input_Website URL_custom-input'), 'gsmediagroup.net')
 
-WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/div_Choose AD'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_Choose AD'))
 
-WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/div_cropped-512adroot.jpg_image-cont image'))
+WebUI.doubleClick(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_All_image-cont image'))
 
-WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Select'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
 
-WebUI.mouseOver(findTestObject('Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'), 
+    'GS media')
 
-WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'))
+WebUI.setText(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'), 
+    'Create campaign')
 
-WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Save'))
 
-WebUI.setText(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'), 'GS media')
-
-WebUI.setText(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'), 'Ad management system')
-
-WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
 
 WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_English'))
 
@@ -115,9 +110,9 @@ WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_23'
 
 WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow'))
 
-WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_64'))
+WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_64'))
 
-WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'), 
     '$ 1')
@@ -136,7 +131,7 @@ WebUI.click(findTestObject('Step 4,5/Page_AdRoot  Create Campaign Steps/td_10'))
 
 WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING'), 0)
+WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
 WebUI.closeBrowser()
 

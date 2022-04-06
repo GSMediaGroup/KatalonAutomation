@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Ad_edit</name>
    <tag></tag>
-   <elementGuidId>fb489686-9902-49ff-b61c-165f5af88ae0</elementGuidId>
+   <elementGuidId>096cc40d-d465-4db6-8426-c9fbe94869f9</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div[3]/div/div</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div[3]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;ad opened-autofill&quot;]/div[@class=&quot;ad-container-area&quot;]/div[@class=&quot;ad-step-content&quot;]/div[@class=&quot;socials-form  mobile  scroll-invisible&quot;]/div[@class=&quot;socials-view-blocks&quot;]/div[@class=&quot;mobile-template no-select&quot;]/div[@class=&quot;actions-mode&quot;]/div[@class=&quot;circle&quot;]/div[@class=&quot;edit&quot;]</value>
+      <value>id(&quot;scrollable&quot;)/div[@class=&quot;create-social-media&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;ad&quot;]/div[@class=&quot;ad-container-area&quot;]/div[@class=&quot;ad-step-content&quot;]/div[@class=&quot;socials-form full-width mobile  scroll-invisible&quot;]/div[@class=&quot;socials-view-blocks&quot;]/div[@class=&quot;mobile-template no-select&quot;]/div[@class=&quot;actions-mode&quot;]/div[@class=&quot;circle&quot;]/div[@class=&quot;edit&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Ad_edit</name>
+   <name>div_Ad_edit (1)</name>
    <tag></tag>
-   <elementGuidId>fb489686-9902-49ff-b61c-165f5af88ae0</elementGuidId>
+   <elementGuidId>925c6edf-693f-4807-93a9-082058bda50d</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div[3]/div/div</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

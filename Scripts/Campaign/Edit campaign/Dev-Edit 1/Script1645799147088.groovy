@@ -33,10 +33,6 @@ WebUI.click(findTestObject('Object Repository/Edit campaign/Page_AdRoot  Login/b
 
 WebUI.click(findTestObject('Object Repository/Edit campaign/Page_AdRoot  Dashboard/img'))
 
-WebUI.click(findTestObject('Object Repository/Edit campaign/Page_AdRoot  Dashboard/div_By Ruzan (dev)'))
-
-WebUI.click(findTestObject('Object Repository/Edit campaign/Page_AdRoot  Dashboard/a_Campaigns'))
-
 WebUI.click(findTestObject('Object Repository/Edit campaign/Page_AdRoot  Campaigns/div_Campaign View'))
 
 WebUI.click(findTestObject('Object Repository/Edit campaign/Page_AdRoot  Campaigns/div_PAUSED_tree-dots dots-blue'))
