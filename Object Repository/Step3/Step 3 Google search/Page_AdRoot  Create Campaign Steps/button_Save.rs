@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+         <value>//button[(text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.buttons-group > button.custom-button.color-social-blue.size-normal.custom-button-primary</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,10 +42,17 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;light&quot;]/div[@class=&quot;template-mobile-root&quot;]/div[@class=&quot;mobile-template no-select&quot;]/div[@class=&quot;edit-social-ad&quot;]/div[@class=&quot;buttons-group&quot;]/button[@class=&quot;custom-button color-social-blue size-normal  custom-button-primary&quot;]</value>
+      <value>/div[@class=&quot;buttons-group&quot;]/button[@class=&quot;custom-button color-social-blue size-normal  custom-button-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Save' or . = 'Save')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
@@ -71,13 +78,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/button[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[(text() = 'Save' or . = 'Save')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

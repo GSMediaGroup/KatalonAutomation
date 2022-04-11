@@ -99,10 +99,12 @@ WebUI.setText(findTestObject('Object Repository/Step3/Create campaign dev/Page_A
 WebUI.setText(findTestObject('Object Repository/Step3/Create campaign dev/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2 (1)'), 
     'Create ads')
 
-WebUI.click(findTestObject('Step3/Create campaign dev/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input (1)'))
+WebUI.click(findTestObject('Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/textarea_Enter Keywords_custom-input'))
 
-WebUI.setText(findTestObject('Step3/Create campaign dev/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input (1)'), 
+WebUI.setText(findTestObject('Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/textarea_Enter Keywords_custom-input'), 
     'Create campaign')
+
+WebUI.click(findTestObject('Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save'))
 
 WebUI.click(findTestObject('App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Save'))
 
