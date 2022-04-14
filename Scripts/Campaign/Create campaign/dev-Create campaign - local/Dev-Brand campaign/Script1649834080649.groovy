@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1550, 900)
 
-WebUI.navigateToUrl('192.168.0.110:3000')
+WebUI.navigateToUrl('hhtp://192.168.0.110:3000')
 
 WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel01@gmail.com')
 

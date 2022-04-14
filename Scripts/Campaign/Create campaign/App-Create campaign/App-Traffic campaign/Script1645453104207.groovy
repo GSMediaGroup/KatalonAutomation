@@ -63,6 +63,8 @@ WebUI.verifyElementPresent(findTestObject('Step2/Page_AdRoot  Create Campaign St
 
 WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/button_Next Step'))
 
+WebUI.click(findTestObject('Audience/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_autofill form_toggle-arrow'))
+
 WebUI.click(findTestObject('Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'))
 
 WebUI.setText(findTestObject('Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'), 
@@ -85,9 +87,7 @@ WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Sele
 WebUI.mouseOver(findTestObject('Google display/Page_AdRoot  Create Campaign Steps/div_1052Business nameHeadlineChoose ADHeadlineAd DescriptionOpen'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'))
-
-WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
 
 WebUI.setText(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'), 'GS media')
 
@@ -104,18 +104,18 @@ WebUI.click(findTestObject('Object Repository/Step3/Step 3 Google search/Page_Ad
 WebUI.click(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/div_Ad_edit'))
 
 WebUI.setText(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input'), 
-    'Create ads')
+    'Create campaign')
 
 WebUI.setText(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1'), 
-    'Create campaigns')
+    'Ad creation system')
 
 WebUI.setText(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/input_Prohibited_custom-input_1_2'), 
-    'Ad management system')
+    'Create ads')
 
-WebUI.doubleClick(findTestObject('Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input'))
+WebUI.setText(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/textarea_create campaign'), 
+    'create campaign')
 
-WebUI.setText(findTestObject('Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Keywords_custom-input'), 
-    'campaign')
+WebUI.click(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Step3/Step 3 Google search/Page_AdRoot  Create Campaign Steps/button_Save'))
 
@@ -140,7 +140,7 @@ WebUI.click(findTestObject('Step 4,5/Page_AdRoot  Create Campaign Steps/td_10'))
 
 WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING'), 0)
+WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

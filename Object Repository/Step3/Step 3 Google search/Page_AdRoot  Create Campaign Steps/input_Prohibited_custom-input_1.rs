@@ -6,12 +6,11 @@
    <elementGuidId>6cb46d64-a710-48da-ac8b-c8de2fed8f8a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div/div[3]/div/div/div/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div/div[3]/div/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +23,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -59,7 +58,7 @@
       <value>/html[@class=&quot;no-touch&quot;]/body[@class=&quot;light&quot;]/div[@class=&quot;template-mobile-root&quot;]/div[@class=&quot;mobile-template no-select&quot;]/div[@class=&quot;edit-social-ad&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;fields&quot;]/div[@class=&quot;google-content&quot;]/div[@class=&quot;google-search-content&quot;]/div[@class=&quot;multi-headline-and-descriptions&quot;]/div[1]/div[@class=&quot;form-input&quot;]/div[@class=&quot;input-content&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;item-row&quot;]/div[@class=&quot;item-input&quot;]/div[@class=&quot;with-characters-count&quot;]/input[@class=&quot;custom-input&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -85,5 +84,12 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='A']</value>
    </webElementXpaths>
 </WebElementEntity>

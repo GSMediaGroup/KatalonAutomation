@@ -65,6 +65,8 @@ WebUI.verifyElementPresent(findTestObject('Step2/Page_AdRoot  Create Campaign St
 
 WebUI.click(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/button_Next Step'))
 
+WebUI.click(findTestObject('Audience/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_autofill form_toggle-arrow'))
+
 WebUI.click(findTestObject('Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'))
 
 WebUI.setText(findTestObject('Object Repository/Step2/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/input_Primary Text_invalid custom-input'), 
@@ -89,7 +91,7 @@ WebUI.mouseOver(findTestObject('Google display/Page_AdRoot  Create Campaign Step
 
 WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Open_actions-mode'))
 
-WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
 
 WebUI.setText(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/input_Business Name_custom-input'), 'GS media')
 
@@ -118,9 +120,7 @@ WebUI.click(findTestObject('Step 4,5/Page_AdRoot  Create Campaign Steps/td_10'))
 
 WebUI.click(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/button_Finish'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Campaigns/div_PENDING'), 0)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Campaign copy/Page_AdRoot  Dashboard/a_Campaigns'))
 
 WebUI.closeBrowser()
 

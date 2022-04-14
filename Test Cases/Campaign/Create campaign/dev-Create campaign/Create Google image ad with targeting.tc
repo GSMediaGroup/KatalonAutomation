@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create Google image ad with targeting</name>
-   <tag>create</tag>
-   <comment></comment>
-   <testCaseGuid>7348e557-33f2-4153-82c3-9694bb185338</testCaseGuid>
-</TestCaseEntity>
