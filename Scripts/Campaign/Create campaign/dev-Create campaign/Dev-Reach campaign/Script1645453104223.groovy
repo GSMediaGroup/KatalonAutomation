@@ -78,7 +78,7 @@ WebUI.setText(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/input_Web
 
 WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_Choose AD'))
 
-WebUI.doubleClick(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_All_image-cont image'))
+WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg'))
 
 WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
 
