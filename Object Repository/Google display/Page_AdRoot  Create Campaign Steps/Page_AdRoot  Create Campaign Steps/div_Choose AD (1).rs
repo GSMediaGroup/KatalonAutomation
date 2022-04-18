@@ -6,12 +6,12 @@
    <elementGuidId>027273fa-6ef2-44ab-a0d6-d195db0ee7f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.default-view</value>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div[2]/div/div[2]/div[2]/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='scrollable']/div/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div</value>
+         <key>CSS</key>
+         <value>div.default-view</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

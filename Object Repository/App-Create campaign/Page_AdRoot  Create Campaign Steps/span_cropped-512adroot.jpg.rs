@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::span[1]</value>
+         <value>//span[(text() = 'cropped-512adroot.jpg' or . = 'cropped-512adroot.jpg')]</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.buttons-group > button.custom-button.color-social-blue.size-normal.custom-button-primary</value>
+         <value>div.popup-content-footer > div.buttons-group > button.custom-button.color-social-blue.size-normal.custom-button-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[(text() = 'Save' or . = 'Save')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,10 +42,38 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;no-touch&quot;]/body[@class=&quot;light&quot;]/div[@class=&quot;template-mobile-root&quot;]/div[@class=&quot;mobile-template no-select&quot;]/div[@class=&quot;edit-social-ad&quot;]/div[@class=&quot;buttons-group&quot;]/button[@class=&quot;custom-button color-social-blue size-normal  custom-button-primary&quot;]</value>
+      <value>/html[@class=&quot;no-touch&quot;]/body[@class=&quot;light&quot;]/div[10]/div[@class=&quot;popup-with-breadcrumbs popup-medium-size popup-opened&quot;]/div[@class=&quot;popup-container upload-media-files&quot;]/div[@class=&quot;popup-body-area&quot;]/div[@class=&quot;popup-content-footer&quot;]/div[@class=&quot;buttons-group&quot;]/button[@class=&quot;custom-button color-social-blue size-normal  custom-button-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Allowed .PNG, .JPEG, .JPG, .GIF, .MKV, .MP4 and .MOV only.'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Save' or . = 'Save')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
@@ -71,13 +99,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/button[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[(text() = 'Save' or . = 'Save')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -78,7 +78,7 @@ WebUI.setText(findTestObject('Step2/Page_AdRoot  Create Campaign Steps/input_Web
 
 WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_Choose AD'))
 
-WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg'))
+WebUI.doubleClick(findTestObject('App-Create campaign/Page_AdRoot  Create Campaign Steps/span_cropped-512adroot.jpg'))
 
 WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/div_Open_edit'))
 
@@ -88,7 +88,7 @@ WebUI.setText(findTestObject('Object Repository/App-Create campaign/Page_AdRoot 
 WebUI.setText(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/input_Long headline_custom-input'), 
     'Create campaign')
 
-WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Save'))
+WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
 
