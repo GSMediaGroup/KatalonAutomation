@@ -91,9 +91,9 @@ WebUI.click(findTestObject('Object Repository/Google display/Page_AdRoot  Create
 
 WebUI.click(findTestObject('Google display/Page_AdRoot  Create Campaign Steps/Page_AdRoot  Create Campaign Steps/div_Choose AD'))
 
-WebUI.doubleClick(findTestObject('Object Repository/Google display/Page_AdRoot  Create Campaign Steps/span_250x250.jpg'))
+WebUI.doubleClick(findTestObject('Google display/Page_AdRoot  Create Campaign Steps/span_250 x 250'))
 
-WebUI.click(findTestObject('Object Repository/Google display/Page_AdRoot  Create Campaign Steps/button_Save'))
+WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
 
