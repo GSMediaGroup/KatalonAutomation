@@ -55,30 +55,39 @@ if (Ms.equals('true')) {
     WebUI.comment('Registration completed successfully.')
 }
 
-WebUI.click(findTestObject('Choose packages/free package/Page_AdRoot  Sign up/button_Sign up_1'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Sign up/button_Skip Payment'))
 
 WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Dashboard/span_campaigns'))
 
-WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns'))
-
 WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Create campaign'))
 
-WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_'))
 
-WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/div_My Account'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Create campaign_1'))
 
-WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account settings'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Delete my Account'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_'))
 
-WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Dashboard/div_Fill in your password_input-content'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_Account'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Choose packages/Page_AdRoot  Dashboard/input_Fill in your password_custom-input'), 
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_My Account'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_Account settings'))
+
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Delete my Account'))
+
+WebUI.doubleClick(findTestObject('Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/input_Fill in your password_custom-input'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/input_Fill in your password_custom-input'), 
     '9juLMCYi8sYpY2Mrwe5diw==')
 
-WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/button_Deleting Account'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Deleting Account'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Choose packages/Page_AdRoot  Login/h2_Login into your account'), 
     0)

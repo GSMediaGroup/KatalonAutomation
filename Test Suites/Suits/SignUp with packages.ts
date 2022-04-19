@@ -15,7 +15,7 @@
       <guid>570f1900-b96d-4375-8100-6ca1a7e937af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/Sign-up with email/Sig-up email-free-from landing</testCaseId>
+      <testCaseId>Test Cases/SignUp/Sign-up with email/Sig-up email-skip</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fb81d497-bc1f-4e14-b93e-f87fdf60e9d6</guid>
@@ -34,11 +34,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SignUp/Sign-up with email/SignUp with email and free</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5845ce96-1742-495f-9521-3b44e16724e7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/Sign-up with email/SignUp with email and skip</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

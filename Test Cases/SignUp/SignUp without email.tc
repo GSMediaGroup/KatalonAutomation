@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SignUp without email</name>
-   <tag>SignUp</tag>
-   <comment></comment>
-   <testCaseGuid>bc9b8470-c291-4567-9472-7bd5915a6f3b</testCaseGuid>
-</TestCaseEntity>

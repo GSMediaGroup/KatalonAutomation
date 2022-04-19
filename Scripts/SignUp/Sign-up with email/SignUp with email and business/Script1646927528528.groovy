@@ -19,25 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1600, 900)
+WebUI.setViewPortSize(1700, 900)
 
-WebUI.navigateToUrl('https://app.adroot.io/auth/signin')
+WebUI.navigateToUrl('https://app.adroot.io/auth/signup')
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Login/a_Sign up now'))
+WebUI.setText(findTestObject('Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/input_Full name_first_name'), 
+    'Adroot Test')
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_First name_first_name'), 'Ruzan')
+WebUI.setText(findTestObject('Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/input_E-mail_email'), 'makronmanuel01@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Last name_last_name'), 'Test')
+WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/input_Password_password'), 
+    '9juLMCYi8sYpY2Mrwe5diw==')
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_E-mail_email'), 'runayan@gmail.com')
+WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/input_Confirm password_confirm'), 
+    '9juLMCYi8sYpY2Mrwe5diw==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Password_password'), '9juLMCYi8sYpY2Mrwe5diw==')
+WebUI.click(findTestObject('Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/div_Confirm password_checkbox'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/input_Confirm password_confirm'), '9juLMCYi8sYpY2Mrwe5diw==')
+WebUI.click(findTestObject('Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'))
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_AdRoot  Sign up/div_Confirm password_checkbox'))
-
-WebUI.click(findTestObject('SignUp/SignUp with email/Page_AdRoot  Sign up/button_Sign up'))
+WebUI.click(findTestObject('Object Repository/SignUp/SignUp with email/Page_AdRoot  Sign up/span_The E-mail address exists'))
 
 String Ms = WebUI.verifyTextPresent('The E-mail address exists.', false)
 
@@ -85,7 +86,7 @@ WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page
 
 WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns'))
 
-WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Campaigns/div_Create'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Create campaign'))
 
 WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name'))
 
