@@ -19,43 +19,41 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1700, 900)
-
 WebUI.navigateToUrl('https://app.adroot.io/auth/signin')
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Login/a_Sign up now'))
+WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Login/a_Sign up now'))
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Sign up/button_Sign Up'))
+WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Sign up/button_Sign Up'))
 
-WebUI.switchToWindowTitle('Facebook')
+WebUI.switchToWindowTitle('Մտնել Google հաշիվներ')
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_Facebook/input_Email or phone_email'))
+WebUI.setText(findTestObject('Object Repository/Google sign up/Page_Google/input_adroot.io_identifier'), 'ruzan.a@adroot.io')
 
-WebUI.setText(findTestObject('Object Repository/Facebook sign up/Page_Facebook/input_Email or phone_email'), 'runaavetisyan200@gmail.com')
+WebUI.sendKeys(findTestObject('Object Repository/Google sign up/Page_Google/input_adroot.io_identifier'), Keys.chord(Keys.ENTER))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Facebook sign up/Page_Facebook/input_Password_pass'), '2Wt4YHZ98fDbc/BDGlT7SKS0VSL5vX1J')
+WebUI.setEncryptedText(findTestObject('Object Repository/Google sign up/Page_Google/input__password'), 'cuON/d2luFqbpP2tciHsMA==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Facebook sign up/Page_Facebook/input_Password_pass'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Google sign up/Page_Google/input__password'), Keys.chord(Keys.ENTER))
 
 WebUI.switchToWindowTitle('AdRoot ‒ Sign up')
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Sign up/button_Skip Payment'))
+WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Sign up/button_Skip Payment'))
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Dashboard/span_campaigns'))
+WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Dashboard/span_campaigns'))
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/button_Create campaign'))
+WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Campaigns/button_Create campaign'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Google sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/div_'))
+WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Campaigns/div_'))
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/button_Create campaign_1'))
+WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Campaigns/button_Create campaign_1'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Google sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/div_'))
+WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Campaigns/div_'))
 
 WebUI.navigateToUrl('http://app-admin.adroot.io')
 
@@ -66,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_Adroot Admin
 
 WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_Adroot Admin/button_Open Filtering'))
 
-WebUI.setText(findTestObject('Object Repository/Facebook sign up/Page_Adroot Admin/input__form-control'), 'runaavetisyan200@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Facebook sign up/Page_Adroot Admin/input__form-control'), 'ruzan.a@adroot.io')
 
 WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_Adroot Admin/button_X'))
 

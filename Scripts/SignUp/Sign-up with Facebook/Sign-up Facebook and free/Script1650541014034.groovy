@@ -39,23 +39,18 @@ WebUI.sendKeys(findTestObject('Object Repository/Facebook sign up/Page_Facebook/
 
 WebUI.switchToWindowTitle('AdRoot ‒ Sign up')
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Sign up/button_Skip Payment'))
+WebUI.click(findTestObject('Choose packages/free package/Page_AdRoot  Sign up/button_Sign up_1'))
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Dashboard/span_campaigns'))
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Dashboard/span_campaigns'))
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/button_Create campaign'))
+WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
+WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Create campaign'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/div_'))
-
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/button_Create campaign_1'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/Facebook sign up/Page_AdRoot  Campaigns/div_'))
+WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Dashboard/a_Campaigns'))
 
 WebUI.navigateToUrl('http://app-admin.adroot.io')
 
