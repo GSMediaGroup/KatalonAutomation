@@ -88,7 +88,8 @@ WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page
 
 WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Create campaign'))
 
-WebUI.click(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Choose packages/basic package/Page_AdRoot  Create Campaign Steps/span_Campaign name'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Campaigns/div_Account'))
 

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.setViewPortSize(1700, 900)
+
 WebUI.navigateToUrl('https://app.adroot.io/auth/signin')
 
 WebUI.click(findTestObject('Object Repository/Google sign up/Page_AdRoot  Login/a_Sign up now'))
