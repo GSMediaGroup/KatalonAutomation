@@ -42,7 +42,7 @@ WebUI.setText(findTestObject('Page_AdRoot  Create Campaign Steps/input_Campaign 
 
 WebUI.click(findTestObject('Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/span_Name is taken'))
 
-WebUI.click(findTestObject('Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Brand Awareness'))
+WebUI.click(findTestObject('Goals/Goals/Page_AdRoot  Create Campaign Steps/div_Reach'))
 
 String Ms = WebUI.verifyTextPresent('Name is taken', false)
 
@@ -88,9 +88,9 @@ WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Sele
 
 WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/div_Share_edit'))
 
-WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/li_Learn More'))
+WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/div_No Button'))
 
-WebUI.doubleClick(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/li_Sign Up'))
+WebUI.doubleClick(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/li_Send Message'))
 
 WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/button_Save'))
 
