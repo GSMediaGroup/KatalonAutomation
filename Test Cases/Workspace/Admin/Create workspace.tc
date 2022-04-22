@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create audience</name>
-   <tag>audience</tag>
+   <name>Create workspace</name>
+   <tag>workspace</tag>
    <comment></comment>
-   <testCaseGuid>a2d0a5d3-46df-453c-b7e8-896f5ee242ce</testCaseGuid>
+   <testCaseGuid>e310cad8-06af-4ac2-a9cc-62fb1138e888</testCaseGuid>
 </TestCaseEntity>

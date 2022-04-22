@@ -15,24 +15,24 @@
       <guid>ee7c76a2-d651-4f82-8ee6-9161ab7ed74a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/Sign-up with email/Sig-up email-skip</testCaseId>
+      <testCaseId>Test Cases/Finished cases/SignUp/Sign-up with email/Sig-up email-skip</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c88b301a-0fd1-4004-be1b-27a0f71c1d88</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/Sign-up with email/SignUp with email and basic</testCaseId>
+      <testCaseId>Test Cases/Finished cases/SignUp/Sign-up with email/SignUp with email and basic</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e209550c-11e7-4c8d-bcf6-2a5e39e750e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/Sign-up with email/SignUp with email and business</testCaseId>
+      <testCaseId>Test Cases/Finished cases/SignUp/Sign-up with email/SignUp with email and business</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>43b69527-edb6-4d20-a8a4-36e2274045f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/Sign-up with email/SignUp with email and free</testCaseId>
+      <testCaseId>Test Cases/Finished cases/SignUp/Sign-up with email/SignUp with email and free</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create audience</name>
-   <tag>audience</tag>
+   <name>Name logic</name>
+   <tag>Logic</tag>
    <comment></comment>
-   <testCaseGuid>a2d0a5d3-46df-453c-b7e8-896f5ee242ce</testCaseGuid>
+   <testCaseGuid>290e8959-6c7a-4ad9-8e21-f74ee51a66fe</testCaseGuid>
 </TestCaseEntity>
