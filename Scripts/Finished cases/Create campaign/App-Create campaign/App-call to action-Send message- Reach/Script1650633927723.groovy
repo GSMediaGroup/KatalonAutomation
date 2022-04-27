@@ -52,7 +52,7 @@ if (Ms.equals('true')) {
     RN = ((Math.random() * 5000) as int)
 
     WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'), 
-        'devadroot' + RN)
+        'appadroot' + RN)
 
     WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step'))
 } else {
@@ -87,6 +87,14 @@ WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  C
 WebUI.click(findTestObject('Step3/Page_AdRoot  Create Campaign Steps/button_Select'))
 
 WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/div_Share_edit'))
+
+WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/div_No Button'))
+
+WebUI.doubleClick(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/li_Send Message'))
+
+WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/Call to action/instagram call to action/Page_AdRoot  Create Campaign Steps/div_Add a comment_edit'))
 
 WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/div_No Button'))
 

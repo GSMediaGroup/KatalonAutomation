@@ -47,4 +47,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Finished cases/Create campaign/dev-Create campaign/Dev-Video views campaign</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>716f231a-4626-4607-b100-2e2cab7256a0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Finished cases/Create campaign/dev-Create campaign/Dev-call to action-Download-Brand</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c45fe1ff-03c8-4172-be68-6cdb09b0fff6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Finished cases/Create campaign/dev-Create campaign/Dev-call to action-Send message- Reach</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3cb6084a-46e1-40cb-a3dd-83cac6175739</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Finished cases/Create campaign/dev-Create campaign/Dev-call to action-Sign Up-Brand</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

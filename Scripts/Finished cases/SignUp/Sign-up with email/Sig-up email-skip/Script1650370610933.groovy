@@ -61,14 +61,14 @@ WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign 
 
 WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Create campaign'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
+WebUI.verifyElementPresent(findTestObject('SignUp/Page_AdRoot  Campaigns/div_You cant create campaign because on account havent active subscription'), 
     0)
 
 WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_'))
 
 WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/button_Create campaign_1'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_You cant create campaign because on acc_55a7b4'), 
+WebUI.verifyElementPresent(findTestObject('SignUp/Page_AdRoot  Campaigns/div_You cant create campaign because on account havent active subscription'), 
     0)
 
 WebUI.click(findTestObject('Object Repository/Choose packages/Page_AdRoot  Sign up/Page_AdRoot  Campaigns/div_'))

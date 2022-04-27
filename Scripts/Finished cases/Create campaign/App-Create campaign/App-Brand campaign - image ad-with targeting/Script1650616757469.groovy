@@ -52,7 +52,7 @@ if (Ms.equals('true')) {
     RN = ((Math.random() * 5000) as int)
 
     WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Create Campaign Steps/input_Campaign name_invalid custom-input'), 
-        'devadroot' + RN)
+        'appadroot' + RN)
 
     WebUI.click(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step'))
 } else {

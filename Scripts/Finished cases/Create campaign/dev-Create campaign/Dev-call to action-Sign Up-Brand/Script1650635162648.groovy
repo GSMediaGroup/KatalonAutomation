@@ -90,6 +90,14 @@ WebUI.doubleClick(findTestObject('Call to action/Page_AdRoot  Create Campaign St
 
 WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/button_Save'))
 
+WebUI.click(findTestObject('Object Repository/Call to action/instagram call to action/Page_AdRoot  Create Campaign Steps/div_Add a comment_edit'))
+
+WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/div_No Button'))
+
+WebUI.doubleClick(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/li_Sign Up'))
+
+WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/button_Save'))
+
 WebUI.click(findTestObject('Call to action/Page_AdRoot  Create Campaign Steps/div_Open_delete'))
 
 WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))

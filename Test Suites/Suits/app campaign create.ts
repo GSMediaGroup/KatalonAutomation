@@ -41,4 +41,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Finished cases/Create campaign/App-Create campaign/App-Video views</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fb556d5e-1e71-42a7-b054-078e95a72558</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Finished cases/Create campaign/App-Create campaign/App-call to action-Download-Brand</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>acf52a95-ad45-45ae-8bb7-e747670f1cfe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Finished cases/Create campaign/App-Create campaign/App-call to action-Send message- Reach</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd9d3d43-7df1-4031-881f-c0f38b6728ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Finished cases/Create campaign/App-Create campaign/App-call to action-Sign Up-Brand</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40d14fb8-1ce5-4cf0-b2e7-005b5fc99726</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Finished cases/Create campaign/App-Create campaign/App-Brand campaign - image ad-with targeting</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
