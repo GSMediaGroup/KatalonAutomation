@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Login with Facebook and close</name>
-   <tag>Login</tag>
-   <comment></comment>
-   <testCaseGuid>5a6fa328-58ca-4c6e-9326-8a43d40862cb</testCaseGuid>
-</TestCaseEntity>

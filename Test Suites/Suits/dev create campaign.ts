@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>6de4da06-7d4d-41e1-ac8e-d47e7c975b2b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Finished cases/Create campaign/dev-Create campaign/Dev-Brand campaign - image ad-with targeting</testCaseId>
    </testCaseLink>
    <testCaseLink>

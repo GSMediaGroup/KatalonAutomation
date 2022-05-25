@@ -6,12 +6,12 @@
    <elementGuidId>f76262e2-a41f-489a-aced-968d9479de26</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.size-cont > span</value>
+         <key>XPATH</key>
+         <value>//span[(text() = '250 x 250' or . = '250 x 250')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::span[2]</value>
+         <key>CSS</key>
+         <value>div.size-cont > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

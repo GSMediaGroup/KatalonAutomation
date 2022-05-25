@@ -23,7 +23,7 @@ WebUI.setViewPortSize(1550, 900)
 
 WebUI.navigateToUrl('https://app.adroot.io/auth/signin')
 
-WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel01@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'), 'runaavetisyan@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'), 
     '9juLMCYi8sYpY2Mrwe5diw==')
@@ -117,11 +117,7 @@ WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_Fro
 
 WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_23'))
 
-WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow'))
-
-WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_64'))
-
-WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
+WebUI.doubleClick(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'), 
     '$ 1')

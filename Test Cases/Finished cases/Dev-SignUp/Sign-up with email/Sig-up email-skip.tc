@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sig-up email-skip</name>
+   <tag>signup</tag>
+   <comment></comment>
+   <testCaseGuid>e63108b5-ad44-4aef-a97e-3c0789eb97c9</testCaseGuid>
+</TestCaseEntity>

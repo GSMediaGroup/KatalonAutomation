@@ -108,10 +108,6 @@ WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_Fro
 
 WebUI.click(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_23'))
 
-WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_To_arrow'))
-
-WebUI.doubleClick(findTestObject('Targeting/Page_AdRoot  Create Campaign Steps/div_64'))
-
 WebUI.click(findTestObject('Object Repository/App-Create campaign/Page_AdRoot  Campaigns/Page_AdRoot  Campaigns/Page_AdRoot  Create Campaign Steps/button_Next Step (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Step 4,5/Page_AdRoot  Create Campaign Steps/input_Daily_custom-input'), 

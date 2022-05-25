@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>8d202443-ebb8-4fe1-b99c-5c9cb9a85589</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Finished cases/Create campaign/App-Create campaign/App-Brand campaign - with targeting</testCaseId>
    </testCaseLink>
    <testCaseLink>

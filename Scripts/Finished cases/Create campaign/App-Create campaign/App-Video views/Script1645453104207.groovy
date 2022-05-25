@@ -23,7 +23,7 @@ WebUI.setViewPortSize(1550, 900)
 
 WebUI.navigateToUrl('https://app.adroot.io/auth/signin')
 
-WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'), 'makronmanuel01@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_E-mail_email'), 'runaavetisyan@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Regular Create campaign/Page_AdRoot  Login/input_Password_password'), 
     '9juLMCYi8sYpY2Mrwe5diw==')

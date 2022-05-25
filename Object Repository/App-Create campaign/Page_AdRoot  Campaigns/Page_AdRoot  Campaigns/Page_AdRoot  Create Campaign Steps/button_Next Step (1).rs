@@ -6,15 +6,19 @@
    <elementGuidId>7b3ca1c4-91aa-4815-9ffc-866c9f26a0e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.custom-button.color-primary-blue.size-normal.next-step.active.custom-button-primary</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Next Step' or . = 'Next Step')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[(text() = 'Next Step' or . = 'Next Step')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.custom-button.color-primary-blue.size-normal.next-step.active.custom-button-primary</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
